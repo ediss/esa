@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("http://local.esa.it/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url("http://local.esa.it/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("http://local.esa.it/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/**
+  *
+  *
+  *HOME PAGE
+  *
+  *
+**/
+
+#navbarNav{
+    /*border:2px solid blue;*/
+}
+#navbarNav ul {
+    float: right;
+    /*border: 2px solid pink;*/
+}
+#navbarNav li {
+    /*border:2px solid red;*/
+    margin:3px;
+}
+
+#navbarNav li a {
+    font-family: 'Roboto-Light', sans-serif;
+    margin-left:17%;
+    /*border:2px solid black;*/
+    text-align: center;
+}
+
+.text_under_banner {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size:22px;
+}
+
+.services h2 {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+.services p {
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+.products h2 {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+.button {
+    border:2px solid #f7b431;
+   /* width:190px;*/
+}
+.button p {
+    /*padding-top:3%;*/
+}
+
+.footer {
+    background-color: #474747;
+    color:#b1b1b1;
+}
+
+.black {
+    background-color: #171717;
+}
+
+.same-height {
+    height:100px;
+}
+
+/**
+  *
+  *
+  *GAS PAGE
+  *
+  *
+**/
+
+
+h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#f4bc52;
+}
+.my-list ul {
+    list-style-type: none;
+}
+
+.my-list ul li::before  {
+    content: "\2022";
+    color:#f4bc52;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    
+}
+
+/**
+  *
+  *
+  *POKER NETWORK PAGE
+  *
+  *
+**/
+
+.last-p {
+    font-family: 'Roboto-Bold', sans-serif;
+
+}
