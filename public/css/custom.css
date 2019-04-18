@@ -1,43 +1,78 @@
 @font-face {
     font-family: 'Roboto-Light';
-    src: url("http://local.esa.it/fonts/Roboto/Roboto-Light.ttf");
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-Medium';
-    src: url("http://local.esa.it/fonts/Roboto/Roboto-Medium.ttf");
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url("http://local.esa.it/fonts/Roboto/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
 }
 
 /**
-  *
-  *
-  *HOME PAGE
-  *
-  *
+    -------------
+       GENERAL
+    -------------
 **/
 
+.text-under-banner {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size:22px;
+}
+
+/**
+  -------------------
+       HOME PAGE
+  -------------------
+**/
+
+.home-background{
+    background-color:#323a45;
+}
+
+.home-image-mt {
+    margin-top:10%;
+}
+
+.home-image-mt h1 {
+    font-family: 'Roboto-Thin', sans-serif;
+
+    color:white;
+    font-size:70px;
+}
+.home-image-mt p {
+    font-family: 'Roboto-Light', sans-serif;
+    color:#90c845;
+    font-size:28px;
+}
+.find-out a{
+    color:white;
+}
+.find-out {
+    padding:2%;
+}
 #navbarNav{
-    /*border:2px solid blue;*/
+    margin-left:3%;
 }
 #navbarNav ul {
     float: right;
-    /*border: 2px solid pink;*/
-}
-#navbarNav li {
-    /*border:2px solid red;*/
-    margin:3px;
 }
 
 #navbarNav li a {
     font-family: 'Roboto-Light', sans-serif;
-    margin-left:17%;
-    /*border:2px solid black;*/
+    margin-left: 3px;
     text-align: center;
+    color:white;
+    font-weight: bold;
 }
 
 .text_under_banner {
@@ -57,10 +92,6 @@
 }
 .button {
     border:2px solid #f7b431;
-   /* width:190px;*/
-}
-.button p {
-    /*padding-top:3%;*/
 }
 
 .footer {
@@ -76,42 +107,222 @@
     height:100px;
 }
 
+.home-footer{
+    margin-top:5%;
+}
+
 /**
-  *
-  *
-  *GAS PAGE
-  *
-  *
+  -------------------
+    MOBILE GAME PAGE
+  -------------------
+**/
+.game-background-image {
+    height: 70vh;
+    background: url('../images/Games/mobile-games-intro.jpg') no-repeat;
+    background-size: contain;
+}
+
+/*blackjack*/
+.blackjack h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#249277;
+}
+.btn-blackjack-mobile {
+    background-color: #249277;
+    border:2px solid #249277;
+}
+.btn-blackjack-mobile a {
+    color:white;
+    font-weight: bold;
+}
+.btn-blackjack-tablet {
+    border:2px solid #249277;
+}
+
+.btn-blackjack-tablet a {
+    color:black;
+}
+.black-jack-list ul {
+    list-style-image: url('../images/Games/arrow-dark-green.png');
+}
+/*roulette*/
+.roulette h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#347e8b;
+}
+.btn-roulette-mobile {
+    background-color: #347e8b;
+    border:2px solid #347e8b;
+}
+.btn-roulette-mobile a {
+    color:white;
+    font-weight: bold;
+}
+.btn-roulette-tablet {
+    border:2px solid #347e8b;
+}
+
+.btn-roulette-tablet a {
+    color:black;
+}
+
+.roulette-list ul {
+    list-style-image: url('../images/Games/arrow-blue.png');
+}
+/**
+  -------------------
+       GAS PAGE
+  -------------------
 **/
 
 
-h4 {
-    font-family: 'Roboto-Medium', sans-serif;
-    color:#f4bc52;
-}
+
 .my-list ul {
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 22px;
     list-style-type: none;
 }
-
+.my-list li {
+    margin-top:10px;
+}
 .my-list ul li::before  {
     content: "\2022";
-    color:#f4bc52;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+
+}
+
+.gas-background-image {
+    height: 70vh;
+    background: url('../images/GAS/gas-intro.jpg') no-repeat;
+    background-size: contain;
+}
+
+.gas-list ul{
+    list-style-image: url('../images/GAS/arrow-orange.png');
+}
+
+.gas-heading h4{
+    font-family: 'Roboto-Medium', sans-serif;
+
+    color:#f7b431
+}
+
+
+/**
+  ------------------------
+    POKER NETWORK PAGE
+  ------------------------
+**/
+.last-p {
+    font-family: 'Roboto-Bold', sans-serif;
+}
+
+.form {
+    background-image: url('../images/Contact/contact-form-bg-bottom.png');
+}
+
+
+.poker-background-image {
+    height: 70vh;
+    background: url('../images/Poker/poker-network-intro.jpg') no-repeat;
+    background-size: contain;
+}
+
+.poker-text {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size:22px;
+}
+
+.poker-heading h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#1cbcb4;
+}
+
+.poker-list ul {
+    list-style-image: url('../images/Poker/arrow-turquoise.png');
+}
+/**
+  -------------------
+        FOOTER
+  -------------------
+**/
+
+#back2Top {
+    cursor: pointer;
+}
+
+
+/**
+  ------------------------
+        CAREER PAGE
+  ------------------------
+**/
+
+.work-with-us-background-image {
+    height: 50vh;
+    background: url('../images/Career/work-with-us-intro.jpg') no-repeat;
     
 }
 
+.work-with-us-list ul {
+    list-style-image: url('../images/Career/arrow-light-green.png');
+}
+
+
 /**
-  *
-  *
-  *POKER NETWORK PAGE
-  *
-  *
+  ------------------------
+        ABOUT US PAGE
+  ------------------------
 **/
 
-.last-p {
-    font-family: 'Roboto-Bold', sans-serif;
+.about-us-background-image {
+    height: 50vh;
+    background: url('../images/About/about-us-intro.jpg') no-repeat;
+}
 
+.about-us-list ul {
+    list-style-image: url('../images/About/arrow-purple.png');
+}
+
+
+/**
+  ------------------------
+        CONTACT PAGE
+  ------------------------
+**/
+
+.contact-us-background-image {
+    height: 50vh;
+    background: url('../images/Contact/contact-intro.jpg') no-repeat;
+}
+
+.background-dark {
+    background-color: #363e49;
+}
+
+.contact-form {
+    padding: 5% 0% 5% 4%;
+    width: 96%;
+    color:white;
+}
+
+/**
+  ---------------------
+        7 Columns
+  ---------------------
+**/
+.seven-cols .column-7 {
+    width: 14.285714285714285714285714285714%;
+}
+
+.navbar-nav-custom {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.no-left-right-padding {
+    padding: 0.5rem 0 0.5rem 0;
 }
