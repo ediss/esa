@@ -1,78 +1,60 @@
-@extends('layout.main')
+<html>
 
-@section('links')
-<link rel="stylesheet" href="{{url('')}}/css/contact.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{url('')}}/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{{url('')}}/css/custom.css">
+</head>
 
-@section('content')
-
-<div class = "row main p-0">
-
-	<div class="col-md-12 mt-5 text-center">
-
-		<h1>Contact Esa gaming now</h1>
-
-		<p>
-			Do you wish to expand your offer? ESA Gaming gives you all the necessary tools to achieve success. Wait no more! Contact us right away and choose the ideal solution for your business!
-		</p>
-
-	</div><!-- /text -->
-
-
-    <div class="col-md-12 pt-5 contact-form mb-5 ">
-        <div class="col-md-8 offset-2 contact-form2">
-            <form action = "#" class="mb-5"method = "POST">
-
-                <div class="form-group">
-                    Your name:<br>
-                    <input type="text" class = "form-control" name="yourname"><br>
-                </div>
-
-                <div class="form-group row">
-                    <div class="col-md-6">
-                        Company name:<br>
-                        <input type="text" class = "form-control" name="companyname">
+<body>
+    <div class="container-fluid home-background">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 p-0">
+                <div class="col-md-8 offset-2">
+                    <div class="container-fluid mt-3">
+                    <div class="row ">
+                        <div class="col-lg-2"></div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 ">
+                            <a href="{{url('')}}" class=" navbar-brand mt-2">
+                                <img class = "img-fluid" src = "{{url('')}}/images/esa-logo.png">
+                            </a>
+                        </div>
+                        <div class="col-md-8 float-right " >
+                            @include('inc.nav')
+                        </div>
                     </div>
-
-                    <div class="col-md-6">
-                        Email:<br>
-                        <input type="text" class = "form-control" name="email">
                     </div>
                 </div>
 
-                <div class="form-group">
-                    Company name:<br>
-                    <input type="text" class = "form-control" name="companyname">
+                <div class="col-lg-8 offset-2 home-image-mt float-left">
+                    <div class="col-md-6 col-lg-6 float-left ">
+                        <h1>SIMPLE.</h1>
+                        <h1>FAST.</h1>
+                        <h1>MOBILE.</h1>
+                        <p class = "mt-5">High performing HTML5 gaming <br /> products with a strong focus on mobile </p>
+
+                        <div class="col-md-6 col-lg-6 mt-5 text-center find-out" style = "border:2px solid white;">
+                            <a href = "{{route('mobile-games')}}" >FIND OUT MORE>></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 float-right">
+                        <img  src="{{url('')}}/images/Home/home-page-illustration.jpg" class = "img-fluid">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    Email:<br>
-                    <input type="text" class = "form-control" name="email"><br>
-                </div>
-
-                <div class="form-group">
-                    Subject:<br>
-                    <input type="text" class = "form-control" name="subject"><br>
-                </div>
-
-                <div class="form-group">
-                    Message:<br>
-                    <textarea  name="message"></textarea><br>
-                    <input type="submit" value="Submit" class="btn-contact">
-                </div>
-
-
-            </form>
-
-            <div class="col-md-12 position-absolute back-image-top">
+            </div>
         </div>
 
-        <div class="col-md-12  position-absolute back-image-bottom mt-5" style = "border:2px solid green;">
-            <!-- <img src="{{url('')}}/images/Contact/contact-form-bg-bottom.png" style = "border:2px solid blue" class = "img-fluid" alt=""> -->
-        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 text-center home-footer mb-5">
+                <footer>
+                    <img class="img-fluid" src="{{url('')}}/images/footer-icons.png">
+                </footer>
+            </div>
         </div>
 
 
     </div>
+</body>
 
-</div><!--/main-->
-@endsection
+</html>

@@ -29,6 +29,13 @@
     font-size:22px;
 }
 
+.banner-heading {
+    color:white;
+}
+
+#navbarNav ul {
+    margin-left:5%;
+}
 /**
   -------------------
        HOME PAGE
@@ -60,12 +67,8 @@
 .find-out {
     padding:2%;
 }
-#navbarNav{
-    margin-left:3%;
-}
-#navbarNav ul {
-    float: right;
-}
+
+
 
 #navbarNav li a {
     font-family: 'Roboto-Light', sans-serif;
@@ -325,4 +328,24 @@
 
 .no-left-right-padding {
     padding: 0.5rem 0 0.5rem 0;
+}
+
+/**
+  ---------------------
+        MEDIA QUERY
+  ---------------------
+**/
+
+@media only screen and (max-width: 1300px) {
+    #navbarNav ul {
+        margin:0;
+    }
+    .banner-heading {
+        margin-top: 2%;
+    }
+    .banner-heading > h1{
+        color:white;
+        font-size: 1.6rem;
+    }
+
 }
