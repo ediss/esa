@@ -36,6 +36,20 @@
 #navbarNav ul {
     margin-left:5%;
 }
+
+
+
+#navbarNav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.active {
+    /*font-size:1.3rem;*/
+    /*text-decoration: underline;
+    text-decoration-color:white;
+    text-decoration-style: double;*/
+}
 /**
   -------------------
        HOME PAGE
@@ -44,6 +58,7 @@
 
 .home-background{
     background-color:#323a45;
+    height:100%;
 }
 
 .home-image-mt {
@@ -97,11 +112,6 @@
     border:2px solid #f7b431;
 }
 
-.footer {
-    background-color: #474747;
-    color:#b1b1b1;
-}
-
 .black {
     background-color: #171717;
 }
@@ -111,7 +121,7 @@
 }
 
 .home-footer{
-    margin-top:5%;
+    /*margin-top:6%;*/
 }
 
 /**
@@ -122,7 +132,11 @@
 .game-background-image {
     height: 70vh;
     background: url('../images/Games/mobile-games-intro.jpg') no-repeat;
-    background-size: contain;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*blackjack*/
@@ -137,9 +151,13 @@
 .btn-blackjack-mobile a {
     color:white;
     font-weight: bold;
+    font-size:15px;
+
 }
 .btn-blackjack-tablet {
     border:2px solid #249277;
+    font-size:15px;
+
 }
 
 .btn-blackjack-tablet a {
@@ -156,13 +174,17 @@
 .btn-roulette-mobile {
     background-color: #347e8b;
     border:2px solid #347e8b;
+
 }
 .btn-roulette-mobile a {
     color:white;
     font-weight: bold;
+    font-size:15px;
+
 }
 .btn-roulette-tablet {
     border:2px solid #347e8b;
+    font-size:15px;
 }
 
 .btn-roulette-tablet a {
@@ -170,7 +192,17 @@
 }
 
 .roulette-list ul {
+    list-style-type: none;
     list-style-image: url('../images/Games/arrow-blue.png');
+}
+
+/*fruit slot*/
+.fruit-slot-list {
+    list-style-image: url('../images/Games/arrow-blue.png');
+}
+.fruit-slot h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#347e8b;
 }
 /**
   -------------------
@@ -189,7 +221,6 @@
     margin-top:10px;
 }
 .my-list ul li::before  {
-    content: "\2022";
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -200,7 +231,9 @@
 .gas-background-image {
     height: 70vh;
     background: url('../images/GAS/gas-intro.jpg') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .gas-list ul{
@@ -209,7 +242,6 @@
 
 .gas-heading h4{
     font-family: 'Roboto-Medium', sans-serif;
-
     color:#f7b431
 }
 
@@ -231,7 +263,9 @@
 .poker-background-image {
     height: 70vh;
     background: url('../images/Poker/poker-network-intro.jpg') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .poker-text {
@@ -252,9 +286,14 @@
         FOOTER
   -------------------
 **/
+.footer {
+    background-color: #474747;
+    color:#b1b1b1;
+}
 
 #back2Top {
     cursor: pointer;
+    width:5em;
 }
 
 
@@ -267,7 +306,7 @@
 .work-with-us-background-image {
     height: 50vh;
     background: url('../images/Career/work-with-us-intro.jpg') no-repeat;
-    
+
 }
 
 .work-with-us-list ul {
@@ -298,7 +337,7 @@
 **/
 
 .contact-us-background-image {
-    height: 50vh;
+    height: 40vh;
     background: url('../images/Contact/contact-intro.jpg') no-repeat;
 }
 
@@ -312,6 +351,7 @@
     color:white;
 }
 
+
 /**
   ---------------------
         7 Columns
@@ -321,14 +361,18 @@
     width: 14.285714285714285714285714285714%;
 }
 
-.navbar-nav-custom {
-    font-size: 1rem;
-    width: 100%;
+/**
+  ---------------------
+        8 Columns
+  ---------------------
+**/
+.eight-cols .column-8 {
+    width: 12.5%;
 }
 
-.no-left-right-padding {
-    padding: 0.5rem 0 0.5rem 0;
-}
+
+
+
 
 /**
   ---------------------
@@ -337,9 +381,9 @@
 **/
 
 @media only screen and (max-width: 1300px) {
-    #navbarNav ul {
+    /*#navbarNav ul {
         margin:0;
-    }
+    }*/
     .banner-heading {
         margin-top: 2%;
     }
@@ -348,4 +392,42 @@
         font-size: 1.6rem;
     }
 
+}
+
+@media screen and (min-width: 1450px) and (max-width:1700px) {
+    .game-background-image, .poker-background-image, .gas-background-image {
+        /*height:55vh;*/
+        /* min-height:30em; */
+        height: 35em;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .game-background-image, .poker-background-image, .gas-background-image {
+        /*height:55vh;*/
+        /* min-height:30em; */
+        height: 30em;
+    }
+    .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 1700px)  {
+    .game-background-image, .poker-background-image, .gas-background-image {
+        /*height:55vh;*/
+        /* min-height:30em; */
+        height: 37em;
+    }
+}
+@media screen and (min-width: 1800px)  {
+    .game-background-image, .poker-background-image, .gas-background-image {
+        /*height:55vh;*/
+        /* min-height:30em; */
+        height: 40em;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .home-footer{
+        /*margin-top:6%;*/
+    }
 }

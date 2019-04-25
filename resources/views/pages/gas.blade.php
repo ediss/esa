@@ -8,23 +8,9 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 text-under-banner offset-lg-2">
         <p>Our single starting integration allows operators to concentrate on their players by adding new games without further integration.
-           We offer a wide selection of Casino, Live Dealer and POker content to opetaors and we give them the possibility to add a huge variety of games to their own platform,
+           We offer a wide selection of Casino, Live Dealer and Poker content to operators and we give them the possibility to add a huge variety of games to their own platform,
            though a simple single integration.
         </p>
-        <p>Our considerable portfolio includes hundreds of titles from over 10 major Game Studios, including:</p>
-
-
-        <div class="row">
-            <div id = "galleryThumbs">
-                <div class="row seven-cols" id = "scroll-to">
-                    @foreach($partners as $partner)
-                    <div class="column-7  p-4 images">
-                        <img src = "{{url($partner->img_url)}}" class = "img-fluid">
-                    </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -91,6 +77,35 @@
     </div>
 
 
+</div>
+<hr>
+<!--
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 text-under-banner offset-lg-2">
+        <div id = "galleryThumbs">
+            <div class="row seven-cols" id = "scroll-to">
+                @foreach($partners as $partner)
+                    <div class="column-7  p-4 images">
+                        <img src = "{{url($partner->img_url)}}" class = "img-fluid">
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="row mt-4">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 text-center text-under-banner offset-lg-2">
+    <h4>Our considerable portfolio includes hundreds of titles from over 13 major Game Studios, including:</h4>
+        <div class="row eight-cols mt-5" id = "scroll-to">
+            @foreach($partners as $partner)
+                <div class="column-8  p-3 images">
+                    <img src = "{{url($partner->img_url)}}" class = "img-fluid">
+                </div>
+            @endforeach
+        </div>
+    </div>
 </div>
 
 

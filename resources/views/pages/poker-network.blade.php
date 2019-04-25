@@ -6,7 +6,13 @@
 @section('content')
 <div class="row">
     <div class="col-md-8 col-lg-8 col-xl-8 offset-2 text-under-banner">
-        <p>ESA Poker Network is the easiest and most intuitive modernized poker on the market, able to attract  both amateur and <br/> experienced players in a dynamic and secure environment,thanks also to a large number of promotional tools suitable for all <br/> types of poker players.</p>
+        <p>ESA Poker Network is the easiest and most intuitive modernized poker on the market, able to attract  both amateur and experienced players in a dynamic and secure environment,thanks also to a large number of promotional tools suitable for all <br/> types of poker players.</p>
+    </div>
+
+    <div class="col-md-8 col-lg-8 col-xl-8 offset-2">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe  class="embed-responsive-item" src="videos/PokerRoomEN.mp4" allowfullscreen autoplay=false></iframe>
+        </div>
     </div>
 </div>
 
@@ -56,16 +62,12 @@
                 </div>
 
                 <div class="col-lg-6 mt-4">
-                    <h4>Markeeting</h4>
+                    <h4>Marketing</h4>
                     <p class = "poker-text">Our stimulating promotional system gives you instruments to reward your players in real time, helping you to attract and retain recreational players with a number of innovative promotions in today’s poker market!</p>
                 </div>
         </div>
 
-        <div class="row mt-5 mb-5">
-            <div class="col-lg-12 mt-5 poker-text">
-                <p>Join our poker network with high traffic cash tables, Texas Hold’em, Omaha, Omaha Hi Lo, Telesina, 32 Cards, Instapoker (fast poker) along with lots of GTD tournaments and daily freerolls.</p>
-            </div>
-        </div>
+
     </div>
 </div>
 @endsection

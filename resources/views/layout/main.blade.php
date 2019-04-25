@@ -10,8 +10,8 @@
     <body>
 
         <div class="container-fluid">
-            <div class="row">
-                <div class = "col-md-12 col-lg-12  img-fluid @yield('banner-image')">
+            <div class="row mb-3">
+                <div class = "col-md-12 col-lg-12  @yield('banner-image')" >
                     <div class="row mt-3">
                         <div class="col-lg-2"></div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 ">

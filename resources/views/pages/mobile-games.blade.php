@@ -5,20 +5,20 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-8 col-lg-6 col-xl-6 offset-3 text-under-banner">
-        <p>ESA Poker Network is the easiest and most intuitive modernized poker on the market, able to attract  both amateur and experienced players in a dynamic and
-           secure environment,thanks also to a large number of promotional tools suitable for all types of poker players.
-        </p>
+    <div class="col-md-8 col-lg-12 col-xl-8 offset-xl-2 text-under-banner">
+        <p>EasySwipe (TM) is a lightweight HTML5 game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and swipe out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
+        <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
+        <p>All EasySwipe games use our certified RNG, are ADM compliant and can be integrated as standalone games in your casino.</p>
     </div>
 </div>
 
 <div class="row mb-5">
     <div class="col-md-8 col-lg-8 offset-2 mt-5">
-        <div class="col-md-6 col-lg-6 float-left">
+        <div class="col-md-6 col-lg-5 float-left">
             <img src="{{url('')}}/images/Games/blackjack.png" class = "img-fluid" alt="">
         </div>
 
-        <div class="col-md-6 col-lg-6 float-right blackjack">
+        <div class="col-md-6 col-lg-7 float-right blackjack">
             <h4>BLACKJACK</h4>
             <p class = "mt-5">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
             <div class="my-list black-jack-list">
@@ -32,15 +32,13 @@
                 </ul>
             </div>
 
-            <div class="buttons mt-5">
-                <div class="col-md-12 col-lg-12">
-                    <div class="col-md-4 col-lg-5 p-3 text-center float-left btn-blackjack-mobile">
-                            <a href="#">MOBILE DEMO>></a>
-                    </div>
+            <div class="buttons col-md-12 col-lg-12 mt-5">
+                <div class="col-md-4 col-lg-5 p-3 text-center float-left btn-blackjack-mobile">
+                    <a href="#">Game Demo>></a>
+                </div>
 
-                    <div class="col-md-4 col-lg-5 p-3 text-center float-right btn-blackjack-tablet">
-                            <a href="#">TABLET DEMO>></a>
-                    </div>
+                <div class="col-md-4 col-lg-5 p-3 text-center float-right btn-blackjack-tablet">
+                    <a href="#">EasySwipe Demo>></a>
                 </div>
             </div>
         </div>
@@ -49,11 +47,11 @@
 
 <div class="row mb-5">
     <div class="col-md-8 col-lg-8 offset-2 mt-5">
-        <div class="col-md-6 col-lg-6 float-left">
+        <div class="col-md-6 col-lg-5 float-left">
             <img src="{{url('')}}/images/Games/roulette.png" class = "img-fluid" alt="">
         </div>
 
-        <div class="col-md-6 col-lg-6 float-right roulette">
+        <div class="col-md-6 col-lg-7 float-right roulette">
             <h4>ROULETTE</h4>
             <p class = "mt-5">This classic European roulette brings the real casino experience, perfectly designed for mobile screens and fast gameplay.</p>
             <div class="my-list roulette-list">
@@ -69,11 +67,11 @@
             <div class="buttons mt-5">
                 <div class="col-md-12 col-lg-12">
                     <div class="col-md-4 col-lg-5 p-3 text-center float-left btn-roulette-mobile">
-                            <a href="#">MOBILE DEMO>></a>
+                            <a href="#">Game Demo>></a>
                     </div>
 
                     <div class="col-md-4 col-lg-5 p-3 text-center float-right btn-roulette-tablet">
-                            <a href="#">TABLET DEMO>></a>
+                            <a href="#">EasySwipe Demo>></a>
                     </div>
                 </div>
             </div>
@@ -83,14 +81,14 @@
 
 <div class="row mb-5">
     <div class="col-md-8 col-lg-8 offset-2 mt-5">
-        <div class="col-md-6 col-lg-6 float-left">
+        <div class="col-md-6 col-lg-5 float-left">
             <img src="{{url('')}}/images/Games/slot.png" class = "img-fluid" alt="">
         </div>
 
-        <div class="col-md-6 col-lg-6 float-right">
+        <div class="col-md-6 col-lg-7 float-right fruit-slot">
             <h4>FRUIT STAXX</h4>
             <p class = "mt-5">Our enticing fruit-themed slot is designed for casual gameplay with an immersive user experience. Our mobile-first thinking ensures this game caters for first-time players and slot aficionados.</p>
-            <div class="my-list">
+            <div class="my-list fruit-slot-list">
                 <ul>
                     <li>EasySwipe(TM) game</li>
                     <li>5x6 matrix</li>
@@ -100,8 +98,26 @@
                     <li>96.6%</li>
                 </ul>
             </div>
+            <div class="buttons mt-5">
+                <div class="col-md-12 col-lg-12">
+                    <div class="col-md-4 col-lg-5 p-3 text-center float-left btn-roulette-mobile">
+                            <a href="#">Game Demo>></a>
+                    </div>
+
+                    <div class="col-md-4 col-lg-5 p-3 text-center float-right btn-roulette-tablet">
+                            <a href="#">EasySwipe Demo>></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+<div class="row mt-5">
+    <div class="col-lg-8 offset-2 mt-5 mb-5">
+        <img src="{{url('')}}/images/Games/roadmap.png" class = "img-fluid" alt="">
+    </div>
+</div>
+
 
 @endsection

@@ -10,11 +10,8 @@
     <div class="container-fluid home-background">
         <div class="row">
             <div class="col-md-12 col-lg-12">
-
-
-                    <div class="row mt-3">
+                <div class="row mt-3">
                     <div class="col-lg-2"></div>
-
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 ">
                             <a href="{{url('')}}" class=" navbar-brand mt-2">
                                 <img class = "img-fluid" src = "{{url('')}}/images/esa-logo.png">
@@ -24,9 +21,10 @@
                             @include('inc.nav')
                         </div>
                     </div>
+            </div>
+        </div>
 
-
-
+        <div class = "row mb-4">
                 <div class="col-lg-8 offset-2 home-image-mt float-left">
                     <div class="col-md-5 col-lg-5 float-left">
                         <h1>SIMPLE.</h1>
@@ -43,13 +41,14 @@
                         <img  src="{{url('')}}/images/Home/home-page-illustration.jpg" class = "img-fluid">
                     </div>
                 </div>
-            </div>
         </div>
 
+
         <div class="row text-center">
-            <div class="col-lg-12 text-center home-footer mb-3">
+
+            <div class="col-lg-2 offset-5 text-center home-footer">
                 <footer>
-                    <img class="img-fluid" src="{{url('')}}/images/footer-icons.png">
+                    <img class="img-fluid" src="{{url('')}}/images/footer.png">
                 </footer>
             </div>
         </div>

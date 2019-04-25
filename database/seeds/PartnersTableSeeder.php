@@ -194,5 +194,31 @@ class PartnersTableSeeder extends Seeder
         } catch(\Exception $e) {
             echo "Image already exist!";
         }
+
+        try{
+            DB::table('partners')
+            ->insert(
+                [
+                    'id_partner'   =>  15,
+                    'img_url'      => 'images/partners/evo.png',
+                    'position'     =>  15
+                ]
+            );
+        } catch(\Exception $e) {
+            echo "Image already exist!";
+        }
+
+        try{
+            DB::table('partners')
+            ->insert(
+                [
+                    'id_partner'   =>  16,
+                    'img_url'      => 'images/partners/microgaming.png',
+                    'position'     =>  16
+                ]
+            );
+        } catch(\Exception $e) {
+            echo "Image already exist!";
+        }
     }
 }

@@ -4,7 +4,13 @@
 @section('banner-text', 'Contact ESA Gaming now')
 
 @section('content')
-    <div class="row">
+
+    <div class = "row mt-3">
+        <div class="col-md-6 col-lg-6 offset-3  text-under-banner">
+            <p>Are you interested to find out how we can enhance your offering? Don't be a stranger - we'd like to hear from you and see what we can do to keep your players engaged and happy</p>
+        </div>
+    </div>
+    <div class="row mt-4">
         <div class="col-md-6 col-lg-6 offset-3 mb-5 background-dark">
             <div class="form ">
                 <form class = "contact-form" action="">
