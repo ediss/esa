@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 @font-face {
     font-family: 'Roboto-Light';
     src: url("../fonts/Roboto/Roboto-Light.ttf");
@@ -23,10 +31,12 @@
        GENERAL
     -------------
 **/
-
-.text-under-banner {
-    font-family: 'Roboto-Light', sans-serif;
-    font-size:22px;
+.logo {
+    /* padding: 0.5rem 1rem; */
+}
+.roboto-light {
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 22px;
 }
 
 .banner-heading {
@@ -50,6 +60,7 @@
     text-decoration-color:white;
     text-decoration-style: double;*/
 }
+
 /**
   -------------------
        HOME PAGE
@@ -58,11 +69,11 @@
 
 .home-background{
     background-color:#323a45;
-    height:100%;
+   /* height:100%;*/
 }
 
 .home-image-mt {
-    margin-top:10%;
+    /*margin-top:10%;*/
 }
 
 .home-image-mt h1 {
@@ -80,6 +91,7 @@
     color:white;
 }
 .find-out {
+    border:2px solid white;
     padding:2%;
 }
 
@@ -93,10 +105,6 @@
     font-weight: bold;
 }
 
-.text_under_banner {
-    font-family: 'Roboto-Light', sans-serif;
-    font-size:22px;
-}
 
 .services h2 {
     font-family: 'Roboto-Medium', sans-serif;
@@ -120,8 +128,14 @@
     height:100px;
 }
 
-.home-footer{
-    /*margin-top:6%;*/
+
+.nav-link{
+    color:#8cc63f;
+}
+
+.fixed-row-bottom {
+    position: fixed;
+    bottom: 0;
 }
 
 /**
@@ -133,9 +147,6 @@
     height: 70vh;
     background: url('../images/Games/mobile-games-intro.jpg') no-repeat;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -210,8 +221,6 @@
   -------------------
 **/
 
-
-
 .my-list ul {
     font-family: 'Roboto-light', sans-serif;
     font-size: 22px;
@@ -282,22 +291,6 @@
     list-style-image: url('../images/Poker/arrow-turquoise.png');
 }
 /**
-  -------------------
-        FOOTER
-  -------------------
-**/
-.footer {
-    background-color: #474747;
-    color:#b1b1b1;
-}
-
-#back2Top {
-    cursor: pointer;
-    width:5em;
-}
-
-
-/**
   ------------------------
         CAREER PAGE
   ------------------------
@@ -351,6 +344,9 @@
     color:white;
 }
 
+.contact-button {
+    color:white;
+}
 
 /**
   ---------------------
@@ -370,6 +366,50 @@
     width: 12.5%;
 }
 
+/**
+  -------------------
+        FOOTER
+  -------------------
+**/
+.footer {
+    background-color: #474747;
+    color:#b1b1b1;
+}
+
+#back2Top {
+    cursor: pointer;
+    width:5em;
+}
+
+/* .footer-nav #navbarNav li span {
+    font-size:18px;
+    font-style: italic;
+    text-transform:capitalize
+} */
+.footer-nav #navbarNav li a {
+
+}
+.footer-nav #navbarNav li span {
+    display: none;
+}
+
+.footer-nav #navbarNav li a{
+    color:#8cc63f;
+    text-align: left;
+
+}
+
+.footer-list ul {
+
+    list-style-type: none;
+}
+.footer-list .first {
+    color:#8cc63f;
+}
+
+.footer-list ul li a {
+    color:#b1b1b1;
+}
 
 
 
@@ -379,6 +419,10 @@
         MEDIA QUERY
   ---------------------
 **/
+
+
+
+
 
 @media only screen and (max-width: 1300px) {
     /*#navbarNav ul {
@@ -392,13 +436,38 @@
         font-size: 1.6rem;
     }
 
+    .my-list ul {
+        font-size: 14px;
+    }
+
+    .roboto-light {
+        font-family: 'Roboto-light', sans-serif;
+        font-size: 14px;
+    }
+    .footer-nav #navbarNav li a {
+        font-size: 10px;
+    }
+
+    .home-image-mt h1 {
+
+        font-size:40px;
+    }
+    .home-image-mt p {
+        font-family: 'Roboto-Light', sans-serif;
+        color:#90c845;
+        font-size:20px;
+    }
+
 }
 
-@media screen and (min-width: 1450px) and (max-width:1700px) {
+@media screen and (min-width: 1430px) and (max-width:1700px) {
     .game-background-image, .poker-background-image, .gas-background-image {
         /*height:55vh;*/
         /* min-height:30em; */
         height: 35em;
+    }
+    .footer-nav #navbarNav li a {
+        font-size:16px;
     }
 }
 
@@ -430,4 +499,96 @@
     .home-footer{
         /*margin-top:6%;*/
     }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .game-background-image, .poker-background-image, .gas-background-image {
+        height: 20em;
+    }
+
+    .my-list li {
+        margin-top:4px;
+    }
+
+    .home-image-mt h1 {
+        font-size: 35px;
+    }
+
+    .home-image-mt p {
+        font-size: 14px;
+    }
+
+    .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
+        height: 10em;
+    }
+    .banner-heading {
+        margin-top:0 !important;
+    }
+
+    #navbarNav li a {
+        font-size: 12px;
+    }
+    .banner-heading h1{
+        font-size: 1.2rem;
+    }
+
+    .eight-cols .column-8 {
+        width: 25%;
+    }
+
+}
+
+
+ @media only screen and (max-width: 650px) {
+
+    .game-background-image, .poker-background-image, .gas-background-image {
+        height: 10em;
+    }
+    .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
+        height: 6em;
+    }
+    .banner-heading {
+        margin-top:0 !important;
+    }
+    .banner-heading h1{
+        font-size: 0.8rem;
+    }
+
+    .eight-cols .column-8 {
+        width: 25%;
+    }
+
+}
+
+
+/**
+  ---------------------
+        BORDERS
+  ---------------------
+**/
+
+.b-blue {
+    border:2px solid blue;
+}
+
+.b-red {
+    border:2px solid red;
+}
+
+.b-green {
+    border:2px solid green;
+}
+
+.b-black {
+    border:2px solid black;
+}
+
+.b-pink {
+    border:2px solid pink;
+}
+
+.b-yellow {
+    border:2px solid yellow;
 }

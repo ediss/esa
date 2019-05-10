@@ -19,4 +19,6 @@ Route::get('Contact-Us',                'ContactController@index')  ->name('cont
 Route::get('Games',                     'GameController@index')     ->name('mobile-games');
 Route::get('Work-with-us',              'CareerController@index')   ->name('career');
 Route::get('About-us',                  'AboutUsController@index')  ->name('about-us');
+Route::post('Contact',                  'ContactController@sendMail')->name('contact.submit');
+
 
