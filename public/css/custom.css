@@ -1,3 +1,6 @@
+*  {
+    -webkit-overflow-scrolling: touch;
+    }
 html,body
 {
     width: 100%;
@@ -33,10 +36,16 @@ html,body
 **/
 .logo {
     /* padding: 0.5rem 1rem; */
+    padding-left:0;
 }
 .roboto-light {
     font-family: 'Roboto-light', sans-serif;
     font-size: 22px;
+}
+
+.my-navbar-button {
+    padding: 0 0.75rem 0 0.75rem !important;
+    font-size: 1rem;
 }
 
 .banner-heading {
@@ -103,6 +112,7 @@ html,body
     text-align: center;
     color:white;
     font-weight: bold;
+    font-size:1.2rem;
 }
 
 
@@ -386,6 +396,16 @@ html,body
     font-style: italic;
     text-transform:capitalize
 } */
+.footer-nav {
+    font-family: 'Roboto-light', sans-serif;
+}
+.footer-nav .logo {
+    display: none;
+}
+
+.footer-nav .my-navbar-button {
+    display: none;
+}
 .footer-nav #navbarNav li a {
 
 }
@@ -462,23 +482,20 @@ html,body
 
 @media screen and (min-width: 1430px) and (max-width:1700px) {
     .game-background-image, .poker-background-image, .gas-background-image {
-        /*height:55vh;*/
-        /* min-height:30em; */
         height: 35em;
     }
-    .footer-nav #navbarNav li a {
-        font-size:16px;
-    }
+
 }
 
 @media screen and (max-width: 1450px) {
     .game-background-image, .poker-background-image, .gas-background-image {
-        /*height:55vh;*/
-        /* min-height:30em; */
         height: 30em;
     }
     .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
         height: 40vh;
+    }
+    .footer-nav #navbarNav li a {
+        font-size:14px;
     }
 }
 @media screen and (min-width: 1700px)  {
@@ -486,6 +503,9 @@ html,body
         /*height:55vh;*/
         /* min-height:30em; */
         height: 37em;
+    }
+    .footer-nav #navbarNav li a {
+        font-size:16px;
     }
 }
 @media screen and (min-width: 1800px)  {
@@ -544,7 +564,7 @@ html,body
  @media only screen and (max-width: 650px) {
 
     .game-background-image, .poker-background-image, .gas-background-image {
-        height: 10em;
+        height: 13em;
     }
     .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
         height: 6em;
@@ -558,6 +578,19 @@ html,body
 
     .eight-cols .column-8 {
         width: 25%;
+    }
+
+    .bg-dark-mobile {
+        background-color: #343a40 !important;
+        padding:0;
+        z-index:1;
+    }
+    #navbarNav ul {
+        margin-left:0;
+    }
+
+    #navbarNav li a {
+        margin-left:0;
     }
 
 }

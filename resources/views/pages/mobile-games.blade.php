@@ -6,6 +6,7 @@
 @section('content')
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light">
+        <p>Our games are designed exclusively for mobile and tablets.</p>
         <p>EasySwipe (TM) is a lightweight HTML5 game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and swipe out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
         <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
         <p>All EasySwipe games use our certified RNG, are ADM compliant and can be integrated as standalone games in your casino.</p>
@@ -75,11 +76,11 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a href="#">GAME &gt;&gt;</a>
+                                <a target="_blank" href="https://test.esagaming.it/esaslotmachine/">GAME &gt;&gt;</a>
                             </div>
 
                             <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a href="#">EasySwipe &gt;&gt;</a>
+                                <a target="_blank" href="https://test.esagaming.it/esaslotmachine/">EasySwipe &gt;&gt;</a>
                             </div>
                         </div>
                     </div>
@@ -114,11 +115,11 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a href="#">GAME &gt;&gt;</a>
+                                <a target="_blank" href="#">GAME &gt;&gt;</a>
                             </div>
 
                             <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a href="#">EasySwipe &gt;&gt;</a>
+                                <a  target="_blank" href="#">EasySwipe &gt;&gt;</a>
                             </div>
                         </div>
                     </div>

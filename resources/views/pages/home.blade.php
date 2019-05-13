@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{url('')}}/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="{{url('')}}/css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body class = "home-background">
@@ -12,13 +14,13 @@
             <div class="col-md-12 col-lg-12">
                 <div class="row mt-3">
                     <div class="col-sm-d-none col-md-0 col-lg-2"></div>
-                        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 logo">
+                        <!-- <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 logo">
                             <a href="{{url('')}}" class=" navbar-brand">
                                 <img class = "img-fluid" src = "{{url('')}}/images/Logo-EsaGaming.png">
                             </a>
-                        </div>
-                        <div class="col-8 col-md-8 col-lg-7 float-right " >
-                            @include('inc.nav')
+                        </div> -->
+                        <div class="col-12 col-sm-12 col-md-12" >
+                            @include('inc.nav2')
                         </div>
                     </div>
             </div>
@@ -68,6 +70,11 @@
 
 
     </div>
+<footer>
+
+</footer>
+<script src="{{url('')}}/js/bootstrap.js"></script>
+
 </body>
 
 </html>

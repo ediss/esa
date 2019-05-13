@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
-    <div class="col-lg-1 col-xl-2"></div>
+<nav class="navbar navbar-expand-xl navbar-dark">
+    <div class="col-lg-2 col-xl-2"></div>
     <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 logo ">
         <a href="{{url('')}}" class=" navbar-brand">
             <img class = "img-fluid" src = "{{url('')}}/images/Logo-EsaGaming.png">
@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse bg-dark-mobile" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item {{ (request()->is('Games')) ? 'active' : '' }}">
-                <a class="nav-link" href="{{route('mobile-games')}}">Games</a>
+                <a class="nav-link" href="{{route('mobile-games')}}">Mobile Games</a>
             </li>
 
             <li class="nav-item {{ (request()->is('Poker-Network')) ? 'active' : '' }}">
