@@ -115,11 +115,11 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a target="_blank" href="#">GAME &gt;&gt;</a>
+                                <a href="#">Coming soon</a>
                             </div>
 
                             <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a  target="_blank" href="#">EasySwipe &gt;&gt;</a>
+                                <a  href="#">Coming soon</a>
                             </div>
                         </div>
                     </div>
