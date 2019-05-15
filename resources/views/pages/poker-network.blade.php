@@ -55,17 +55,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4>Poker back office</h4>
-                <p class = "mt-5 poker-text">Our powerful back office allows easy tracking and player management.<br/>The ESA Gaming system gives you the possibility to create and manage cash tables and tournaments from the back office, private tables for partners, groups or affiliates. <br/> High-level reports and the intuitive functions of our back office make Operators fully independent! Moreover, all reports can be quickly downloaded in excel format for further analysis.</p>
+                <p class = "mt-5 roboto-light">Our powerful back office allows easy tracking and player management.<br/>The ESA Gaming system gives you the possibility to create and manage cash tables and tournaments from the back office, private tables for partners, groups or affiliates. <br/> High-level reports and the intuitive functions of our back office make Operators fully independent! Moreover, all reports can be quickly downloaded in excel format for further analysis.</p>
             </div>
 
             <div class="col-lg-6 mt-4">
                     <h4>Fraud department</h4>
-                    <p class = "poker-text">Our fraud department along with the poker team are constantly working with Operators to optimize fraud prevention practices and get the best results.Our network represents a healthy ecosystem, managed with strong tools against collusion and chip dumping.</p>
+                    <p class = "roboto-light">Our fraud department along with the poker team are constantly working with Operators to optimize fraud prevention practices and get the best results.Our network represents a healthy ecosystem, managed with strong tools against collusion and chip dumping.</p>
                 </div>
 
                 <div class="col-lg-6 mt-4">
                     <h4>Marketing</h4>
-                    <p class = "poker-text">Our stimulating promotional system gives you instruments to reward your players in real time, helping you to attract and retain recreational players with a number of innovative promotions in today’s poker market!</p>
+                    <p class = "roboto-light">Our stimulating promotional system gives you instruments to reward your players in real time, helping you to attract and retain recreational players with a number of innovative promotions in today’s poker market!</p>
                 </div>
         </div>
 

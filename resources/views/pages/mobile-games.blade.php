@@ -13,19 +13,19 @@
     </div>
 </div>
 
-<div class="row mb-5">
-    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5">
+<div class="row mb-5" id = "blackjack">
+<div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3">
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
                 <img src="http://178.253.198.140/images/Games/blackjack.png" class="img-fluid" alt="">
             </div>
 
-            <div class="col-md-6 col-lg-7  blackjack" id = "blackjack">
+            <div class="col-md-6 col-lg-7  fruit-slot">
                 <h4 class="ml-3">BLACKJACK</h4>
-                <p class="ml-3 mb-3 mt-2 roboto-light">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
+                <p class="ml-3 mb-3 mt-2 roboto-light">Our enticing fruit-themed slot is designed for casual gameplay with an immersive user experience. Our mobile-first thinking ensures this game caters for first-time players and slot aficionados.</p>
                 <div class="my-list black-jack-list">
                     <ul>
-                        <li>EasySwipe(TM) game</li>
+                    <li>EasySwipe(TM) game</li>
                         <li>Intuitive portrait gameplay</li>
                         <li>Responsive design</li>
                         <li>Bonus gamble round</li>
@@ -33,7 +33,6 @@
                         <li>Game history</li>
                     </ul>
                 </div>
-
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
@@ -51,8 +50,9 @@
         </div>
 
     </div>
+
 </div>
-<div class="row mb-5">
+<div class="row mb-5" id = "slot">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5">
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
@@ -91,8 +91,8 @@
     </div>
 </div>
 
-<div class="row mb-5">
-    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5">
+<div class="row mb-5" id = "roulette">
+    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3" >
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
                 <img src="{{url('')}}/images/Games/roulette.png" class = "img-fluid" alt="">

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-xl navbar-dark">
-    <div class="col-lg-2 col-xl-2"></div>
+    <div class="col-xl-2"></div>
     <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 logo ">
         <a href="{{url('')}}" class=" navbar-brand">
             <img class = "img-fluid" src = "{{url('')}}/images/Logo-EsaGaming.png">

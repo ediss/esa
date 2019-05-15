@@ -4,14 +4,11 @@
 @section('banner-text', 'Work with us')
 
 @section('content')
-<div class="row mb-5">
-    <div class="col-md-8  offset-md-2 roboto-light">
-        <p>We put a lot of effort into building a company that promotes both profesionalism and joy in every day's work. We want to build a successful comapany by building great things. This means that we will always keep out startup culture alive without <br/> any compromises to the ambitious projects we undertake.</p>
-    </div>
-</div>
-
-<div class="row mt-5 mb-5">
-    <div class="col-md-8 offset-md-2">
+<div class="row">
+    <div class="col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
+        <div class="col-md-12">
+            <p>We put a lot of effort into building a company that promotes both profesionalism and joy in every day's work. We want to build a successful comapany by building great things. This means that we will always keep out startup culture alive without <br/> any compromises to the ambitious projects we undertake.</p>
+        </div>
         <div class="row">
             <div class="col-md-6 float-left my-list work-with-us-list">
                 <h4>At the moment we have these positions opened</h4>
@@ -29,5 +26,4 @@
         </div>
     </div>
 </div>
-
 @endsection

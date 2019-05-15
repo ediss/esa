@@ -3,6 +3,7 @@
 
 @section('banner-image', 'gas-background-image')
 @section('banner-text', 'Game Aggregator System (GAS)')
+@section('p-under-banner-text', 'One partner, many casino brands')
 
 @section('content')
 <div class="row">
@@ -38,7 +39,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-10 col-lg-8 col-xl-8 offset-lg-2  offset-md-1 gas-heading">
+    <div class="col-md-10 col-lg-8 col-xl-8 offset-lg-2  offset-md-1 gas-heading box-shadow p-4">
         <h4>Dynamic Back Office</h4>
         <p class = "roboto-light mt-5">The back office gives fast and intuitive access to customer data in a single solution. Customer Service and Managers can control customer history, game sessions and bonus campaigns for different providers directly from our back office.</p>
 
@@ -59,7 +60,7 @@
     </div>
 
     <div class="col-md-10 mt-5 offset-md-1  gas-heading">
-        <div class="row">
+        <div class="row box-shadow">
             <div class="col-md-6   mt-4 my-list gas-list">
                 <h4>Access Regulated Markets</h4>
                 <ul class = "mt-5">
