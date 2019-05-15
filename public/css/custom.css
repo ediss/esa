@@ -530,7 +530,6 @@ html,body
         font-size: 14px;
     }
 
- 
     .banner-heading {
         top: 1.8rem;
 
@@ -551,12 +550,14 @@ html,body
 
 @media only screen and (min-width: 1024px) {
     .game-background-image, .poker-background-image, .gas-background-image {
-        height: 23em;
+        height: 25em;
     }
     .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
         height: 12em;
     }
-
+    .bg-dark-mobile {
+        background-color: transparent !important;
+    }
     .banner-heading {
         top: 2.6rem;
     }

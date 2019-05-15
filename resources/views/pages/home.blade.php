@@ -20,7 +20,7 @@
                             </a>
                         </div> -->
                         <div class="col-12 col-sm-12 col-md-12" >
-                            @include('inc.nav2')
+                            @include('inc.nav')
                         </div>
                     </div>
             </div>
