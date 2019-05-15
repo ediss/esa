@@ -117,7 +117,8 @@ html,body
     font-family: 'Roboto-Thin', sans-serif;
 
     color:white;
-    font-size:70px;
+    font-size: 3rem;
+
 }
 .home-image-mt p {
     font-family: 'Roboto-Light', sans-serif;
@@ -522,9 +523,6 @@ html,body
         margin-top:4px;
     }
 
-    .home-image-mt h1 {
-        font-size: 35px;
-    }
 
     .home-image-mt p {
         font-size: 14px;
@@ -569,6 +567,9 @@ html,body
     .p-under-banner-text {
         font-size: 0.8rem;
     }
+    .home-image-mt h1 {
+        font-size: 2.3rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -608,6 +609,11 @@ html,body
     #navbarNav li a {
         font-size: 1rem;
     }
+
+    .home-image-mt h1 {
+        font-size:3rem;
+    }
+
 }
 
 @media only screen and (min-width: 1490px) {
@@ -649,6 +655,9 @@ html,body
     }
     .p-under-banner-text {
         font-size: 1rem;
+    }
+    .home-image-mt h1 {
+        font-size:6rem;
     }
 }
 
