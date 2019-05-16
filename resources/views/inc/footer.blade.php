@@ -52,7 +52,7 @@
             <div class="row mt-3">
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
 
                     <!-- Content -->
                     <img src="{{url('')}}/images/Logo-EsaGaming.png" class="img-fluid" alt="">

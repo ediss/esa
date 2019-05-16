@@ -319,7 +319,7 @@ html,body
 .work-with-us-background-image {
     height:6em;
     background: url('../images/Career/work-with-us-intro.jpg') no-repeat;
-
+    background-size: cover;
 }
 
 .work-with-us-list ul {
@@ -336,6 +336,7 @@ html,body
 .about-us-background-image {
     height: 6em;
     background: url('../images/About/about-us-intro.jpg') no-repeat;
+    background-size: cover;
 }
 
 .about-us-list ul {
@@ -352,6 +353,7 @@ html,body
 .contact-us-background-image {
     height: 6em;
     background: url('../images/Contact/contact-intro.jpg') no-repeat;
+    background-size: cover;
 }
 
 .background-dark {
@@ -570,6 +572,7 @@ html,body
     .home-image-mt h1 {
         font-size: 2.3rem;
     }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -614,6 +617,9 @@ html,body
         font-size:3rem;
     }
 
+    .eight-cols .column-8 {
+        width: 12.5%;
+    }
 }
 
 @media only screen and (min-width: 1490px) {
