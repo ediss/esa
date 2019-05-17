@@ -49,11 +49,26 @@ html,body
 }
 
 .bg-dark-mobile {
-    background-color: #343a40 !important;
-    padding:0;
+    /* padding:0; */
+    height: 0%;
+    width: 100%;
+    position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9) !important;;
+    overflow-y: hidden;
+    transition: 0.5s;
 }
 
+
+.closebtn {
+    position: absolute;
+    right: 4%;
+    font-size: 60px;
+    color:white;
+}
 .banner-img {
     position: relative;
     display: inline-block;
@@ -74,7 +89,7 @@ html,body
 }
 
 #navbarNav ul {
-    /*margin-left:5%;*/
+    padding-top: 6rem;
 }
 
 
@@ -137,11 +152,11 @@ html,body
 
 #navbarNav li a {
     font-family: 'Roboto-Light', sans-serif;
-    margin-left: 3px;
     text-align: center;
     color:white;
     font-weight: bold;
     font-size:1.2rem;
+    margin-top: 1rem;
 }
 
 
@@ -471,7 +486,14 @@ html,body
 **/
 
 
-/*This is for landscape?*/
+@media only screen and (min-width: 300px) and (orientation : landscape) {
+    #navbarNav li a {
+        font-size: 0.8rem;
+    }
+    #navbarNav ul {
+        padding-top: 0px;
+    }
+}
 
  @media only screen and (min-width: 600px) {
 
@@ -490,15 +512,6 @@ html,body
 
     .eight-cols .column-8 {
         width: 25%;
-    }
-
-    .bg-dark-mobile {
-        background-color: #343a40 !important;
-        padding:0;
-        z-index:1;
-    }
-    #navbarNav ul {
-        margin-left:0;
     }
 
     #navbarNav li a {
@@ -546,6 +559,21 @@ html,body
         width: 25%;
     }
 
+    .bg-dark-mobile {
+        background-color:inherit;
+    }
+
+    #navbarNav li a {
+        margin-top:2.8rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    #navbarNav li a {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -571,6 +599,19 @@ html,body
     }
     .home-image-mt h1 {
         font-size: 2.3rem;
+    }
+    .bg-dark-mobile {
+        height: inherit;
+        position: relative;
+    }
+
+    #navbarNav ul {
+        padding-top:0 !important;
+    }
+
+    #navbarNav li a {
+        margin-top:0 !important;
+        font-size: 0.8rem;
     }
 
 }
@@ -630,7 +671,7 @@ html,body
         height: 20em;
     }
 
-    #navbarNav {
+    #navbarNav ul {
         margin-left:5%;
     }
     #navbarNav li a {

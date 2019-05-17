@@ -146,6 +146,18 @@
 </div>
 <script src="{{url('')}}/js/bootstrap.js"></script>
 <script>
+/* OPen when someone clicks on the "symbol inside the overlay */
+function openNav() {
+  document.getElementById("navbarNav").style.height = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("navbarNav").style.height = "0%";
+    }
+</script>
+
+<script>
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
