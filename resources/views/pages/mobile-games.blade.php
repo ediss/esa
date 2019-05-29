@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light">
         <p>Our games are designed exclusively for mobile and tablets.</p>
-        <p>EasySwipe (TM) is a lightweight HTML5 game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and swipe out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
+        <p>EasySwipe&trade; is a lightweight HTML5 game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and swipe out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
         <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
         <p>All EasySwipe games use our certified RNG, are ADM compliant and can be integrated as standalone games in your casino.</p>
     </div>
@@ -25,7 +25,7 @@
                 <p class="ml-3 mb-3 mt-2 roboto-light">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
                 <div class="my-list black-jack-list">
                     <ul>
-                    <li>EasySwipe(TM) game</li>
+                    <li>EasySwipe&trade; game</li>
                         <li>Intuitive portrait gameplay</li>
                         <li>Responsive design</li>
                         <li>Bonus gamble round</li>
@@ -64,7 +64,7 @@
                 <p class="ml-3 mb-3 mt-2 roboto-light">Our enticing fruit-themed slot is designed for casual gameplay with an immersive user experience. Our mobile-first thinking ensures this game caters for first-time players and slot aficionados.</p>
                 <div class="my-list fruit-slot-list">
                     <ul>
-                        <li>EasySwipe(TM) game</li>
+                        <li>EasySwipe&trade; game</li>
                         <li>5x6 matrix</li>
                         <li>Stacked wins feature</li>
                         <li>Cloned reels feature</li>
@@ -103,7 +103,7 @@
                 <p class="ml-3 mb-3 mt-2 roboto-light">This classic European roulette brings the real casino experience, perfectly designed for mobile screens and fast gameplay.</p>
                 <div class="my-list roulette-list">
                     <ul>
-                        <li>EasySwipe(TM) game</li>
+                        <li>EasySwipe&trade; game</li>
                         <li>Responsive design</li>
                         <li>Racetrack betting</li>
                         <li>Game statistics, Hot and cold numbers</li>
