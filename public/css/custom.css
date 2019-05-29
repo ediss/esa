@@ -82,7 +82,7 @@ html,body
 .banner-heading {
     position: absolute;
     /* top:5rem; */
-    top:1.1rem;
+    top: 4.1rem;
     left:50%;
     transform: translate( -50%, -50% );
     text-align: center;

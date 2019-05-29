@@ -19,7 +19,7 @@
                                 <img class = "img-fluid" src = "{{url('')}}/images/Logo-EsaGaming.png">
                             </a>
                         </div> -->
-                        <div class="col-12 col-sm-12 col-md-12" >
+                        <div class="col-12" >
                             @include('inc.nav')
                         </div>
                     </div>
@@ -71,9 +71,21 @@
 
     </div>
 <footer>
-
-</footer>
 <script src="{{url('')}}/js/bootstrap.js"></script>
+<script>
+/* OPen when someone clicks on the "symbol inside the overlay */
+function openNav() {
+  document.getElementById("navbarNav").style.height = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("navbarNav").style.height = "0%";
+    }
+</script>
+</footer>
+
+
 
 </body>
 
