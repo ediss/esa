@@ -22,7 +22,7 @@
 
             <div class="col-md-6 col-lg-7  fruit-slot">
                 <h4 class="ml-3">BLACKJACK</h4>
-                <p class="ml-3 mb-3 mt-2 roboto-light">Our enticing fruit-themed slot is designed for casual gameplay with an immersive user experience. Our mobile-first thinking ensures this game caters for first-time players and slot aficionados.</p>
+                <p class="ml-3 mb-3 mt-2 roboto-light">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
                 <div class="my-list black-jack-list">
                     <ul>
                     <li>EasySwipe(TM) game</li>
@@ -69,7 +69,7 @@
                         <li>Stacked wins feature</li>
                         <li>Cloned reels feature</li>
                         <li>High hit rate</li>
-                        <li>96.6%</li>
+                        <li>96.6% RTP</li>
                     </ul>
                 </div>
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
@@ -106,9 +106,9 @@
                         <li>EasySwipe(TM) game</li>
                         <li>Responsive design</li>
                         <li>Racetrack betting</li>
-                        <li>Game statistics, Hot and cold numbers?</li>
+                        <li>Game statistics, Hot and cold numbers</li>
                         <li>Game history</li>
-                        <li>Multi-lingual?</li>
+                        <li>Multi-lingual</li>
                     </ul>
                 </div>
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
