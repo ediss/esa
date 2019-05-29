@@ -639,7 +639,9 @@ html,body
         background-color: transparent !important;
     }
 
-
+    .home-image-mt p {
+        font-size: 21px;
+    }
     .p-under-banner-text {
         font-size: 0.8rem;
     }
@@ -680,6 +682,9 @@ html,body
     }
     .work-with-us-background-image, .about-us-background-image, .contact-us-background-image {
         height: 20em;
+    }
+    .home-image-mt p {
+        font-size: 30px;
     }
 
     #navbarNav ul {
