@@ -37,11 +37,11 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-md-5 col-lg-5 p-3 text-center  btn-blackjack-mobile">
-                                <a target="_blank" href="https://test.esagaming.it/esablackjack/?token=PLAYFORFUN">GAME &gt;&gt;</a>
+                                <a  href="#" onclick = "openBlackJack()">GAME &gt;&gt;</a>
                             </div>
 
                             <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-blackjack-tablet">
-                                <a target="_blank" href="http://demo.esagaming.it/">EasySwipe &gt;&gt;</a>
+                                <a href="#" onclick = "openEasySwipeBj()">EasySwipe &gt;&gt;</a>
                             </div>
                         </div>
                     </div>
@@ -76,11 +76,11 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a target="_blank" href="https://test.esagaming.it/esaslotmachine/">GAME &gt;&gt;</a>
+                                <a href="#" onclick="openSlot()">GAME &gt;&gt;</a>
                             </div>
 
                             <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a target="_blank" href="https://test.esagaming.it/esaslotmachine/">EasySwipe &gt;&gt;</a>
+                                <a href = "#" onclick = "openSlot()">EasySwipe &gt;&gt;</a>
                             </div>
                         </div>
                     </div>
@@ -136,5 +136,18 @@
     </div>
 </div>
 
+<script>
+function openSlot() {
+  window.open("https://test.esagaming.it/esaslotmachine/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=491,height=860");
+}
 
+function openBlackJack() {
+  window.open("https://test.esagaming.it/esablackjack/?token=PLAYFORFUN", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+}
+
+function openEasySwipeBj() {
+  window.open("http://demo.esagaming.it/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+}
+
+</script>
 @endsection
