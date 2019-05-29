@@ -8,7 +8,7 @@
             <div class="container">
 
                 <!-- Grid row-->
-                <div class="row py-3 d-flex align-items-center">
+                <!-- <div class="row py-3 d-flex align-items-center"> -->
                     <!-- <div class="col-sm-6 offset-sm-3 text-center">
                         <img src="{{url('')}}/images/footer-arrow.png" alt="" id = "back2Top" class = "img-fluid">
                     </div> -->
@@ -16,30 +16,30 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-sm-6 offset-sm-3  mt-4 text-center">
+                    <!-- <div class="col-sm-6 offset-sm-3  mt-4 text-center">
 
-                        <!-- Facebook -->
+
                         <a class="fb-ic">
                             <i class="fab fa-facebook-f white-text mr-4"> </i>
                         </a>
-                        <!-- Twitter -->
+
                         <a class="tw-ic">
                             <i class="fab fa-twitter white-text mr-4"> </i>
                         </a>
-                        <!-- Google +-->
+
                         <a class="gplus-ic">
                             <i class="fab fa-google-plus-g white-text mr-4"> </i>
                         </a>
-                        <!--Linkedin -->
+
                         <a class="li-ic">
                             <i class="fab fa-linkedin-in white-text mr-4"> </i>
                         </a>
 
 
-                    </div>
+                    </div> -->
                     <!-- Grid column -->
 
-                </div>
+                <!-- </div> -->
                 <!-- Grid row-->
 
             </div>
@@ -118,8 +118,8 @@
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <hr class="deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p><i class="fas fa-home mr-3"></i> <br/>Valletta Buildings, 4th Floor, Suite 20, South Street, Valetta, VLT 1103, Malta</p>
-                    <p><i class="fas fa-envelope mr-3"></i> <br/>info@esagaming.it</p>
-                    <p><i class="fas fa-phone mr-3"></i> <br/> + 01 234 567 88</p>
+                    <!-- <p><i class="fas fa-envelope mr-3"></i> <br/>info@esagaming.it</p> -->
+                    <!-- <p><i class="fas fa-phone mr-3"></i> <br/> + 01 234 567 88</p> -->
 
 
                 </div>
@@ -133,10 +133,13 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
-            <div class=" col-sm-12">
-                <div class="col-4 col-sm-6 col-md-2 col-lg-2 col-xl-2 offset-4 offset-sm-3 offset-md-5 offset-xl-5  text-center">
+            <div class=" col-sm-12 ">
+                <div class="col-sm-8  offset-2">
+                    <div class="col-4 col-sm-6 col-md-2 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
                     <img src="{{url('')}}/images/footer.png" class="img-fluid" alt="">
+                    </div>
                 </div>
+
             </div>
         </div>
         <!-- Copyright -->

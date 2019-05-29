@@ -18,7 +18,7 @@
             <div class="row mb-3">
                 <div class = "col banner-img @yield('banner-image')" >
                     <div class="row mt-md-3">
-                        <div class="col-12" >
+                        <div class="col-12 meni" >
                             @include('inc.nav')
                         </div>
                     </div>

@@ -14,7 +14,7 @@
                 <h4>At the moment we have these positions opened</h4>
 
                 <ul>
-                    <li>2D illustrator ( <a href = "#">See more..</a>)</li>
+                    <li>2D illustrator </li>
                     <li>2D Animator</li>
                     <li>UI / UX Designer</li>
                 </ul>
