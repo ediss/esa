@@ -34,14 +34,9 @@
                             <h1>FAST.</h1>
                             <h1>MOBILE.</h1>
                             <p class = "mt-2">High performing HTML5 gaming  products with a strong focus on mobile.</p>
-
                             <div class="row">
                                 <a class="col-12  col-md-12 col-lg-9 mt-xl-5 text-center text-white find-out" href = "{{route('mobile-games')}}" >FIND OUT MORE>></a>
                             </div>
-                            
-                          
-
-
                         </div>
 
                         <div class="col-sm-8 col-12 col-md-7 col-lg-7 offset-sm-2   offset-md-0 mt-5">

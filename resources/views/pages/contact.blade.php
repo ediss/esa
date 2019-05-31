@@ -48,7 +48,7 @@
                         <label for="message">Message *</label>
                         <textarea rows="9" name = "message" class = "form-control" required> </textarea>
                     </div>
-                    <div class="col-md-3 col-lg-3 ml-2 mt-5 text-center find-out" style = "border:2px solid white;">
+                    <div class="col-md-3 col-lg-3 ml-2 mt-5 text-center find-out">
                             <!-- <a href = "" >SUBMIT</a> -->
                             <button type="submit" class="btn submit-btn contact-button ">SUBMIT</button>
                     </div>
