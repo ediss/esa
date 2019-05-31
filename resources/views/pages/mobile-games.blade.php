@@ -7,9 +7,8 @@
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light">
         <p>Our games are designed exclusively for mobile and tablets.</p>
-        <p>EasySwipe&trade; is a lightweight HTML5 game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and swipe out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
+        <p>EasySwipe&trade; is a lightweight HTML5 mobile-first game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
         <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
-        <p>All EasySwipe games use our certified RNG, are ADM compliant and can be integrated as standalone games in your casino.</p>
     </div>
 </div>
 
@@ -36,13 +35,8 @@
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-md-5 col-lg-5 p-3 text-center  btn-blackjack-mobile">
-                                <a  href="#" onclick = "openBlackJack()">GAME &gt;&gt;</a>
-                            </div>
-
-                            <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-blackjack-tablet">
-                                <a href="#" onclick = "openEasySwipeBj()">EasySwipe &gt;&gt;</a>
-                            </div>
+                            <a class="col-md-5 p-3 text-center text-white btn-blackjack-mobile" href="#" onclick = "openBlackJack()">GAME &gt;&gt;</a>  
+                            <a class="col-md-5 p-3 text-center text-dark  ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-blackjack-tablet" href="#" onclick = "openEasySwipeBj()">EasySwipe &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -75,13 +69,8 @@
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a href="#" onclick="openSlot()">GAME &gt;&gt;</a>
-                            </div>
-
-                            <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a href = "#" onclick = "openSlot()">EasySwipe &gt;&gt;</a>
-                            </div>
+                            <a class="col-md-5 p-3 text-center text-white btn-roulette-mobile" href="#" onclick="openSlot()">GAME &gt;&gt;</a>
+                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet" href = "#" onclick = "openSlot()">EasySwipe &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -114,13 +103,8 @@
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-md-5 col-lg-5 p-3 text-center  btn-roulette-mobile">
-                                <a href="#">Coming soon</a>
-                            </div>
-
-                            <div class="col-md-5 col-lg-5 p-3 text-center ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet">
-                                <a  href="#">Coming soon</a>
-                            </div>
+                            <a class="col-md-5 p-3 text-center text-white  btn-roulette-mobile" href="#">Coming soon</a>
+                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet"  href="#">Coming soon</a>
                         </div>
                     </div>
                 </div>
