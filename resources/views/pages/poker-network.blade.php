@@ -11,7 +11,8 @@
 
     <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe  class="embed-responsive-item" src="videos/PokerRoomEN.mp4" allowfullscreen ></iframe>
+            <!-- <iframe  class="embed-responsive-item" src="videos/PokerRoomEN.mp4" allowfullscreen ></iframe> -->
+            <video src="videos/PokerRoomEN.mp4" playsinline loop muted autoplay controls></video>
         </div>
     </div>
 </div>
@@ -72,4 +73,7 @@
 
     </div>
 </div>
+
+
+
 @endsection
