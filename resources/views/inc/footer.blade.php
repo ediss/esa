@@ -134,11 +134,14 @@
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
             <div class=" col-sm-12 ">
-                <div class="col-sm-8  offset-2">
+                <div class="row">
+                <div class="col-8  offset-2">
                     <div class="col-4 col-sm-6 col-md-2 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
-                    <img src="{{url('')}}/images/footer.png" class="img-fluid" alt="">
+                        <img src="{{url('')}}/images/footer.png" class="img-fluid" alt="">
                     </div>
                 </div>
+                </div>
+                
 
             </div>
         </div>
