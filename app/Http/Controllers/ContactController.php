@@ -30,7 +30,7 @@ class ContactController extends Controller {
             'company_name'  => $company_name,
             'email'         => $email,
             'subject'       => $subject,
-            'msg'       => $msg
+            'msg'           => $msg
         ];
 
         Mail::send(['text'=>'pages.mail'], $data, function($message) use ($data) {

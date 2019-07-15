@@ -16,7 +16,7 @@
 <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3">
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
-                <img src="http://178.253.198.140/images/Games/blackjack.png" class="img-fluid" alt="">
+                    <img src="{{url('')}}/images/Games/blackjack.png" class = "img-fluid" alt="">
             </div>
 
             <div class="col-md-6 col-lg-7  fruit-slot">
