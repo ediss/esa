@@ -32,44 +32,23 @@
                     <div class="row mt-3">
                         
                         <div class="col-8 col-md-5 col-lg-5 offset-2 offset-md-0 mt-md-5 text-center text-md-left">
-                            <h1><b>SIMPLE</b></h1>
-                            <h1 class = "text-center text-sm-left"><b><i>FAST</i></b></h1>
-                            <h1><b>MOBILE</b></h1>
+                            <h1 class ="animated fadeInLeftBig"><b>SIMPLE</b></h1>
+                            <h1 class ="text-center text-sm-left animated  bounceInLeft "><b><i>FAST</i></b></h1>
+                            <h1 class ="animated  fadeInLeftBig "><b>MOBILE</b></h1>
                             <p class = "mt-2">High performing HTML5 gaming  products with a strong focus on mobile.</p>
-                            <div class="row">
+                            <div class="row animated zoomIn">
                                 <a class="col-12  col-md-12 col-lg-9 mt-xl-5 text-center text-white find-out" href = "{{route('mobile-games')}}" >FIND OUT MORE>></a>
                             </div>
                         </div>
 
-                        <div class="col-sm-8 col-12 col-md-7 col-lg-7 offset-sm-2 mb-3  offset-md-0 mt-5">
-                            {{-- <img  src="{{url('')}}/images/Home/home-page-illustration.jpg" class = "img-fluid"> --}}
-                                <div class="col-10 offset-1">
-                                    <img  src="{{url('')}}/images/Home/test.png" class = "img-fluid">
-                                </div>
-                            {{-- <img  src="{{url('')}}/images/Home/test.png" class = "img-fluid"> --}}
+                        <div class="col-sm-8 col-12 col-md-7 col-lg-7 offset-sm-2 mb-3  offset-md-0 mt-5 animated zoomIn">
+                                <img  src="{{url('')}}/images/Home/test.png" class = "img-fluid">
                         </div>
                     </div>
 
                 </div>
         </div>
 
-        <!-- <div class="row d-block d-md-none">
-            <div class="mt-5">
-                <div class="col-sm-6 col-md-4 col-lg-4 offset-sm-3 home-footer">
-                    <img class="img-fluid" src="{{url('')}}/images/footer.png">
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row d-none d-md-block">
-            <div class="col-12 col-md-8 col-lg-8 offset-md-2  mt-5 mt-md-0 fixed-bottom">
-                <div class="col-sm-12 col-md-4 col-lg-4 offset-md-4 home-footer">
-                    <img class="img-fluid" src="{{url('')}}/images/footer.png">
-                </div>
-            </div>
-        </div> -->
 
 
     </div>
