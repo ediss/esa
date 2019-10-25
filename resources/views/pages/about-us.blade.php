@@ -15,7 +15,7 @@
         <div class="row mb-5 mt-5">
             <div class="col-md-6  my-list about-us-list">
                 <ul>
-                    <li>Enhance your sportsbook with our EasySwipe (TM) mobile games.</li>
+                    <li>Enhance your sportsbook with our EasySwipe&trade; mobile games.</li>
                     <li>Manage hundreds of games, bonuses and free spins from one back office.</li>
                     <li>Build your poker network with our trusted download and mobile game clients.</li>
                 </ul>

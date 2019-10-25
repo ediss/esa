@@ -4,8 +4,11 @@
 @section('banner-text', 'Mobile Games')
 
 @section('content')
+
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light">
+            {{-- <h3 class = "text-center mb-4"><b><i>-Mobile Games-</i></b></h3> --}}
+
         <p>Our games are designed exclusively for mobile and tablets.</p>
         <p>EasySwipe&trade; is a lightweight HTML5 mobile-first game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
         <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
@@ -16,15 +19,15 @@
 <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3">
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
-                    <img src="{{url('')}}/images/Games/blackjack.png" class = "img-fluid" alt="">
+                    <img src="{{url('')}}/images/Games/blackjack.png" class = "img-fluid mt-3" alt="">
             </div>
 
-            <div class="col-md-6 col-lg-7  fruit-slot">
+            <div class="col-md-6 col-lg-7 mb-3 fruit-slot">
                 <h4 class="ml-3">BLACKJACK</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
                 <div class="my-list black-jack-list">
                     <ul>
-                    <li>EasySwipe&trade; game</li>
+                        <li>EasySwipe&trade; game</li>
                         <li>Intuitive portrait gameplay</li>
                         <li>Responsive design</li>
                         <li>Bonus gamble round</li>
@@ -84,10 +87,10 @@
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3" >
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
-                <img src="{{url('')}}/images/Games/roulette.png" class = "img-fluid" alt="">
+                <img src="{{url('')}}/images/Games/roulette.png" class = "img-fluid mt-3" alt="">
             </div>
 
-            <div class="col-md-6 col-lg-7 roulette">
+            <div class="col-md-6 col-lg-7 mb-3 mb-sm-0 roulette">
                 <h4 class = "ml-3">ROULETTE</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">This classic European roulette brings the real casino experience, perfectly designed for mobile screens and fast gameplay.</p>
                 <div class="my-list roulette-list">

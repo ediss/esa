@@ -65,6 +65,7 @@ html,body
     background-color: rgba(0,0,0, 0.9) !important;
     overflow-y: hidden;
     transition: 0.5s;
+    
 }
 
 
@@ -77,11 +78,13 @@ html,body
 .banner-img {
     position: relative;
     display: inline-block;
+    filter: contrast(130%);
+    
 }
 
 .banner-heading {
     position: absolute;
-    /* top:5rem; */
+    
     top: 4.1rem;
     left:50%;
     transform: translate( -50%, -50% );
@@ -90,6 +93,23 @@ html,body
     font-weight: bold;
 
 }
+
+/* .banner-heading {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 4.1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 100%;
+    
+    padding: 20px;
+    text-align: center;
+} */
 .banner-heading h3{
     font-size:0.6rem;
 }
@@ -126,7 +146,8 @@ html,body
 **/
 
 .home-background{
-    background-color:#323a45;
+    /* background-color:#323a45; */
+    background: linear-gradient(to right, rgb(50, 58, 69), rgb(23, 31, 42));
    /* height:100%;*/
 }
 
@@ -144,7 +165,7 @@ html,body
 .home-image-mt p {
     font-family: 'Roboto-Light', sans-serif;
     color:#90c845;
-    font-size:28px;
+    font-size:15px;
 }
 .find-out a{
     color:white;
@@ -379,6 +400,7 @@ html,body
 
 .background-dark {
     background-color: #363e49;
+    
 }
 
 .contact-form {
@@ -499,6 +521,7 @@ html,body
     #navbarNav ul {
         padding-top: 0px;
     }
+    
 }
 
  @media only screen and (min-width: 600px) {
@@ -753,3 +776,4 @@ html,body
 .b-yellow {
     border:2px solid yellow;
 }
+

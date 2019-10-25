@@ -16,7 +16,7 @@
 
         <div class="container-fluid">
             <div class="row mb-3">
-                <div class = "col banner-img @yield('banner-image')" >
+                <div class = "col banner-img @yield('banner-image')" id = "banner-img" >
                     <div class="row mt-md-3">
                         <div class="col-12 meni" >
                             @include('inc.nav')
@@ -30,7 +30,10 @@
                         </div>
 
                     </div>
+
+
                 </div>
+
             </div>
 
             @yield('content')

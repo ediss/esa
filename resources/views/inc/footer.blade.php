@@ -155,11 +155,14 @@
 /* OPen when someone clicks on the "symbol inside the overlay */
 function openNav() {
   document.getElementById("navbarNav").style.height = "100%";
+  document.getElementById("banner-img").style.filter = "none";
+
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
     function closeNav() {
         document.getElementById("navbarNav").style.height = "0%";
+        document.getElementById("banner-img").style.filter = "contrast(130%)";
     }
 </script>
 
