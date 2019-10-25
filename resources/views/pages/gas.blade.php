@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="row">
-    <div class="col-lg-8 roboto-light offset-lg-2">
+    <div class="col-lg-8 roboto-light offset-lg-2 note bq-danger mb-5">
         <p>Our single starting integration allows operators to concentrate on their players by adding new games without further integration.
            We offer a wide selection of Casino, Live Dealer and Poker content to operators and we give them the possibility to add a huge variety of games to their own platform,
            though a simple single integration.

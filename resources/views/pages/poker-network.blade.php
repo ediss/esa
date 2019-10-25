@@ -5,7 +5,7 @@
 
 @section('content')
 <div class="row">
-    <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 roboto-light">
+    <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 roboto-light note bq-info mb-4">
         <p>ESA Poker is a premium network with intuitive UI and features, built from a player perspective and offering a large number of promotional tools suitable for all players types. We enable you to offer what your players want. </p>
     </div>
 

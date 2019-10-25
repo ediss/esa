@@ -6,7 +6,7 @@
 @section('content')
 
 <div class="row">
-    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light">
+    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light note bq-success">
             {{-- <h3 class = "text-center mb-4"><b><i>-Mobile Games-</i></b></h3> --}}
 
         <p>Our games are designed exclusively for mobile and tablets.</p>
