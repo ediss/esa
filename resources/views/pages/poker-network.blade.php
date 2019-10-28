@@ -9,7 +9,7 @@
         <p>ESA Poker is a premium network with intuitive UI and features, built from a player perspective and offering a large number of promotional tools suitable for all players types. We enable you to offer what your players want. </p>
     </div>
 
-    <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2">
+    <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2  p-0">
         <div class="embed-responsive embed-responsive-16by9">
             <!-- <iframe  class="embed-responsive-item" src="videos/PokerRoomEN.mp4" allowfullscreen ></iframe> -->
             <video src="videos/PokerRoomEN.mp4" playsinline loop muted autoplay controls></video>
