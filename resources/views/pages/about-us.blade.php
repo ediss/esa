@@ -22,7 +22,7 @@
             </div>
 
             <div class="col-sm-8 col-md-6 offset-sm-2 offset-md-0 mt-4 mt-md-0">
-                <img class="img-fluid" src="{{url('')}}/images/About/about-us-illustration.png" alt="">
+                <img class="img-fluid" src="{{url('')}}/images/About/about_banner.png" alt="">
             </div>
         </div>
 
