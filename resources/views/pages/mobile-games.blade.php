@@ -133,7 +133,7 @@ function openBlackJack() {
 }
 
 function openEasySwipeBj() {
-  window.open("http://demo.esagaming.it/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+  window.open("https://demo.esagaming.it/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
 }
 
 </script>
