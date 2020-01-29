@@ -7,7 +7,6 @@
 
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light note bq-success">
-            {{-- <h3 class = "text-center mb-4"><b><i>-Mobile Games-</i></b></h3> --}}
 
         <p>Our games are designed exclusively for mobile and tablets.</p>
         <p>EasySwipe&trade; is a lightweight HTML5 mobile-first game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
@@ -23,7 +22,7 @@
             </div>
 
             <div class="col-md-6 col-lg-7 mb-3 fruit-slot">
-                <h4 class="ml-3">BLACKJACK</h4>
+                <h4 class="ml-3 text-center text-md-left mt-4 mt-md-0">BLACKJACK</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">Our classic blackjack game offers a 6 option gamble round. This lightweight HTML5 game has an intuitive interface and single hand ergonomics.</p>
                 <div class="my-list black-jack-list">
                     <ul>
@@ -57,7 +56,7 @@
             </div>
 
             <div class="col-md-6 col-lg-7  fruit-slot">
-                <h4 class = "ml-3">FRUIT STAXX</h4>
+                <h4 class = "ml-3 text-center text-md-left mt-4 mt-md-0">FRUIT STAXX</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">Our enticing fruit-themed slot is designed for casual gameplay with an immersive user experience. Our mobile-first thinking ensures this game caters for first-time players and slot aficionados.</p>
                 <div class="my-list fruit-slot-list">
                     <ul>
@@ -91,7 +90,7 @@
             </div>
 
             <div class="col-md-6 col-lg-7 mb-3 mb-sm-0 roulette">
-                <h4 class = "ml-3">ROULETTE</h4>
+                <h4 class = "ml-3 text-center text-md-left mt-4 mt-md-0">ROULETTE</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">This classic European roulette brings the real casino experience, perfectly designed for mobile screens and fast gameplay.</p>
                 <div class="my-list roulette-list">
                     <ul>
@@ -125,12 +124,13 @@
             </div>
 
             <div class="col-md-6 col-lg-7  fruit-slot">
-                <h4 class = "ml-3">GOAL MINE</h4>
+                <h4 class = "ml-3 text-center text-md-left mt-4 mt-md-0">GOAL MINE</h4>
                 <p class="ml-3 mb-3 mt-2 roboto-light">GoalMine&trade; is a football themed instant
                     win game, similar to the original minesweeper. 
                    It is played on a soccer field with a 5x6 matrix.</p>
                 <div class="my-list black-jack-list">
                     <ul>
+                        <li>EasySwipe&trade; game</li>
                         <li>Fast action sports theme</li>
                         <li>Intuitive portrait gameplay</li>
                         <li>Win up to 20 times initial bet</li>
