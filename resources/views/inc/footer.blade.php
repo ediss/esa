@@ -63,11 +63,11 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-3">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-3" id="games">
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Games</h6>
-                    <hr class="deep-green deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <hr class="deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a href = "{{route('mobile-games')}}#blackjack"> Black Jack</a>
                     </p>
@@ -76,6 +76,9 @@
                     </p>
                     <p>
                         <a href="{{route('mobile-games')}}#roulette">Roulette</a>
+                    </p>
+                    <p>
+                        <a href="{{route('mobile-games')}}#goalMine">Goal Mine</a>
                     </p>
 
                 </div>
@@ -160,10 +163,11 @@ function openNav() {
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
-    function closeNav() {
-        document.getElementById("navbarNav").style.height = "0%";
-        document.getElementById("banner-img").style.filter = "contrast(130%)";
-    }
+function closeNav() {
+    document.getElementById("navbarNav").style.height = "0%";
+    document.getElementById("banner-img").style.filter = "contrast(130%)";
+}
+
 </script>
 
 <script>

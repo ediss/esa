@@ -73,7 +73,7 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
                             <a class="col-md-5 p-3 text-center text-white btn-roulette-mobile" href="#" onclick="openSlot()">GAME &gt;&gt;</a>
-                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet" href = "#" onclick = "openSlot()">EasySwipe &gt;&gt;</a>
+                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet" href = "#" onclick = "openEasySwipeBj()">EasySwipe &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -106,8 +106,43 @@
                 <div class="buttons mt-lg-5 mt-md-2 ml-3">
                     <div class="col-md-12 col-lg-12">
                         <div class="row">
-                            <a class="col-md-5 p-3 text-center text-white  btn-roulette-mobile" href="#">Coming soon</a>
-                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet"  href="#">Coming soon</a>
+                            <a class="col-md-5 p-3 text-center text-white btn-roulette-mobile" href="#" onclick="openRoulette()">GAME &gt;&gt;</a>
+                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-roulette-tablet" href = "#" onclick = "openEasySwipeBj()">EasySwipe &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row mb-5" id = "goalMine">
+    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
+                <img src="{{url('')}}/images/Games/goalMine.png" class = "img-fluid" alt="">
+            </div>
+
+            <div class="col-md-6 col-lg-7  fruit-slot">
+                <h4 class = "ml-3">GOAL MINE</h4>
+                <p class="ml-3 mb-3 mt-2 roboto-light">GoalMine&trade; is a football themed instant
+                    win game, similar to the original minesweeper. 
+                   It is played on a soccer field with a 5x6 matrix.</p>
+                <div class="my-list black-jack-list">
+                    <ul>
+                        <li>Fast action sports theme</li>
+                        <li>Intuitive portrait gameplay</li>
+                        <li>Win up to 20 times initial bet</li>
+                        <li>Rebuy into the game with a corner kick</li>
+                        <li>92% RTP</li>
+                    </ul>
+                </div>
+                <div class="buttons mt-lg-5 mt-md-2 ml-3">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <a class="col-md-5 p-3 text-center text-white btn-blackjack-mobile" href="#">Coming Soon</a>
+                            <a class="col-md-5 p-3 text-center text-dark ml-md-1 ml-lg-3 mt-2 mt-md-0 btn-blackjack-tablet" href = "#">Coming Soon</a>
                         </div>
                     </div>
                 </div>
@@ -130,6 +165,10 @@ function openSlot() {
 
 function openBlackJack() {
   window.open("https://test.esagaming.it/esablackjack/?token=PLAYFORFUN", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+}
+
+function openRoulette() {
+  window.open("https://test.esagaming.it/esaroulette", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
 }
 
 function openEasySwipeBj() {
