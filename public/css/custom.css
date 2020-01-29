@@ -49,7 +49,7 @@ html,body
 }
 .meni {
     position:fixed;
-    z-index: 1;
+    z-index: 99;
     background-color: rgba(0,0,0, 0.9) !important;
 }
 
@@ -85,7 +85,7 @@ html,body
 .banner-heading {
     position: absolute;
     
-    top: 4.1rem;
+    top: 1rem;
     left:50%;
     transform: translate( -50%, -50% );
     text-align: center;
