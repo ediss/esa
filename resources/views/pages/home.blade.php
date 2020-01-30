@@ -31,7 +31,7 @@
                 <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2  mt-md-2 home-image-mt">
                     <div class="row mt-3">
                         
-                        <div class="col-8 col-md-5 col-lg-5 offset-2 offset-md-0 mt-md-5 text-center text-md-left">
+                        <div class="col-6 col-md-5 col-lg-5 offset-3 offset-md-0 mt-md-5 text-center text-md-left">
                             <h1 class ="animated fadeInLeftBig"><b>SIMPLE</b></h1>
                             <h1 class ="text-center text-sm-left animated  bounceInLeft "><b><i>FAST</i></b></h1>
                             <h1 class ="animated  fadeInLeftBig "><b>MOBILE</b></h1>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-8 col-12 col-md-7 col-lg-7 offset-sm-2 mb-3  offset-md-0 mt-5 animated zoomIn">
+                        <div class="col-8 col-md-7 col-lg-7 offset-2 mb-3  offset-md-0 mt-5 animated zoomIn">
                                 <img  src="{{url('')}}/images/Home/test.png" class = "img-fluid">
                         </div>
                     </div>
