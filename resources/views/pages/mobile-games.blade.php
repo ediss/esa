@@ -6,11 +6,17 @@
 @section('content')
 
 <div class="row">
-    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light note bq-success">
+    <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light note bq-success mb-4">
 
         <p>Our games are designed exclusively for mobile and tablets.</p>
         <p>EasySwipe&trade; is a lightweight HTML5 mobile-first game family that integrates seamlessly into your sportsbook or gaming site. Super fast performance and open sessions allow players to swipe in and out, enjoying the best quality casino games without disrupting the sports betting experience.</p>
         <p>The games proven cross-selling capacity, without cannibalisation, helps sportsbooks to prolong screen time and add revenue.</p>
+    </div>
+
+    <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2  p-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <video src="videos/Games.mp4" playsinline loop muted autoplay controls></video>
+        </div>
     </div>
 </div>
 
