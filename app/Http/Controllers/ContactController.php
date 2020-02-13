@@ -38,7 +38,7 @@ class ContactController extends Controller {
                 ];
         
                 Mail::send(['text'=>'pages.mail'], $data, function($message) use ($data) {
-                    $message->to('thomas@esagaming.it', 'ESAGaming.it')->subject ($data['subject'])->replyTo($data['email']);
+                    $message->to('info@esagaming.it', 'ESAGaming.it')->subject ($data['subject'])->replyTo($data['email']);
                     $message->from($data['email'], $data['name'] );
                 });
         
