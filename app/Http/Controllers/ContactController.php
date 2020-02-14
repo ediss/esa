@@ -37,6 +37,8 @@ class ContactController extends Controller {
                     'response' => $request->input('recaptcha')
                 ];
 
+                dd($captchaData);
+
                 $options = [
                     'http' => [
                         'header'  => "Content-type: application/x-www-form-urlencoded\r\n",

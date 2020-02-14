@@ -88,7 +88,6 @@
 <script>
     grecaptcha.ready(function() {
         var name = "{{ env('RECAPTCHA_V3_SITE_KEY') }}";
-
         
         grecaptcha.execute(name, {action: '/ContactUs'}).then(function(token) {
            
