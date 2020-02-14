@@ -41,7 +41,7 @@ class ContactController extends Controller {
                     'http' => [
                         'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
                         'method'  => "POST",
-                        'content' => http_build_query(($captchaData))
+                        'content' => http_build_query($captchaData)
                     ]
                 ];
 
