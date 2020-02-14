@@ -37,7 +37,7 @@ class ContactController extends Controller {
                     'response' => $request->input('recaptcha')
                 ];
 
-                dd($captchaData);
+                
 
                 $options = [
                     'http' => [
