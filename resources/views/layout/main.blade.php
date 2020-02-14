@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="{{url('')}}/css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_V3_SITE_KEY') }}"></script>
 
 
     @yield('links')
@@ -48,6 +49,7 @@
         @yield('content')
 
         @include('inc.footer')
+        @yield('footer-script')
     </div>
 
 </body>

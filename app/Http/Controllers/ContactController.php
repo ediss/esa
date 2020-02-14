@@ -15,6 +15,7 @@ class ContactController extends Controller {
     public function index(Request $request) {
         $validator = null;
         if ($request->isMethod('post')) {
+            
             $name           = $request->input('name');
             $company_name   = $request->input('company_name');
             $email          = $request->input('email');
@@ -28,7 +29,33 @@ class ContactController extends Controller {
             ]);
 
             if ($validator->passes()){
-        
+                
+                //check if user is bot
+                $url = 'https://www.google.com/recaptcha/api/siteverify';
+                $captchaData = [
+                    'secret' => env('RECAPTCHA_V3_SECRET_KEY'),
+                    'response' => $request->input('recaptcha')
+                ];
+
+                $options = [
+                    'http' => [
+                        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+                        'method'  => "POST",
+                        'content' => http_build_query(($captchaData))
+                    ]
+                ];
+
+                $context    = stream_context_create($options);
+                $result     = file_get_contents($url, false, $context);
+                $resultJson = json_decode($result);
+
+                dd($resultJson);
+
+                if($resultJson->success != true) {
+                    return back()->with('message', 'Bot!');
+                }
+
+
                 $data = [
                     'name'          => $name,
                     'company_name'  => $company_name,

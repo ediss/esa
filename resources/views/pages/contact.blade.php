@@ -67,6 +67,7 @@
                     </div>
                     @endif
                 </div>
+                <input type="hidden" name="recaptcha" id="recaptcha">
                 <div class="col-md-3 col-lg-3 ml-2 mt-5 text-center find-out">
                     <!-- <a href = "" >SUBMIT</a> -->
                     <button type="submit" class="btn submit-btn contact-button ">SUBMIT</button>
@@ -82,3 +83,19 @@
     </div>
 </div>
 @endsection
+
+@section('footer-script')
+<script>
+    grecaptcha.ready(function() {
+        var name = "{{ env('RECAPTCHA_V3_SITE_KEY') }}";
+
+        
+        grecaptcha.execute(name, {action: '/ContactUs'}).then(function(token) {
+           
+           if(token) {
+               document.getElementById('recaptcha').value = token;
+           }
+        });
+    });
+    </script>
+    @endsection
