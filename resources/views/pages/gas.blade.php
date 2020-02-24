@@ -27,11 +27,11 @@
 
             <div class="row mt-4">
                 <div class="col-md-12 col-lg-8 offset-lg-2 roboto-light ">
-                    <p>We developed technology with one goal to facilitate the operational managment for operators.<br/>
-                       The GAS platform gives you the posibility to launch casino and gaming content on the market, from best providers,though simple APIs.
+                    <p>We have always developed technology with one goal; to make operational management for operators easier.<br/>
+                        The GAS platform gives you the possibility to launch casino and gaming content  from the best providers though simple APIs.
                     </p>
 
-                    <p>Access to a wide range of games from major Game Studios and the freedom to choose different content that matches your players’ tastes. Multichannel (desktop & mobile) content on the GAS platform is constantly being added to and can be launched with minimal efforts from an operator perspective.</p>
+                    <p>GAS gives access to a wide range of games from all the major Game Studios and the freedom to choose different content that matches your players’ tastes and your needs. The platform includes Multichannel (desktop & mobile) content which is constantly being added to and can be launched with minimal effort from an operator perspective.</p>
                 </div>
             </div>
         </div>
