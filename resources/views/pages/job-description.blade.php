@@ -13,12 +13,11 @@
             @endif
     </div>
         
-    <div class="col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
-        <div class="col-md-12">
+    <div class="col-12 col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
+        <div class="col-12 p-0">
             <h1 class="text-center font-weight-bold mb-5">Platform Product Owner</h1>
-            <p>Have you got previous Product experience in an online industry? If so this could be the next step for you
-                in
-                your career! <br />Perhaps you are an experienced Project Manager looking to take the next step up?
+            <p class="text-center">Have you got previous Product experience in an online industry? If so this could be the next step for you
+                in your career! <br/> Perhaps you are an experienced Project Manager looking to take the next step up?
             </p>
 
             <nav class="nav nav-pills nav-justified mt-5">
@@ -92,7 +91,7 @@
                 </div>
 
                 <div id="requirements" class="container tab-pane fade"><br>
-                    <div class="col-md-12 mt-3 my-list work-with-us-list mt-5">
+                    <div class="col-md-12 mt-3 my-list work-with-us-list mt-5 text-center text-md-left">
                         <h3 class="font-weight-bold mb-5">Requirements:</h3>
                         <ul class="p-0">
                             <li>Significant experience in a product management role.</li>
@@ -111,7 +110,7 @@
 
                 <div id="qualifications" class="container tab-pane fade"><br>
 
-                    <div class="col-md-12  my-lisst work-with-us-list mt-5 ">
+                    <div class="col-md-12  my-lisst work-with-us-list mt-5 text-center text-md-left ">
 
                         <h3 class="font-weight-bold mb-5">Qualifications & Experience</h3>
                         <ul class="">
@@ -130,7 +129,7 @@
         </div>
 
         <div class="col-12 text-center mt-5">
-            <div class="apply-btn col-4 offset-4">
+            <div class="apply-btn col-12 col-md-4 offset-md-4">
                 <button type="button" class="btn job-button btn-lg" data-toggle="modal"
                     data-target="#myModal">Apply</button>
             </div>
