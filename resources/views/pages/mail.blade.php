@@ -1,4 +1,4 @@
-Hi,  the {{ $name }} was contacted you!
+Hi,  {{ $name }} contacted you!
 
 
 Company name: {{$company_name}}

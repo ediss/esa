@@ -1,8 +1,8 @@
-Hi,  the {{ $name }} was contacted you!
+Hi,  {{ $name }} contacted you!
 
 
 
 email : {{$email}}
-Covver letter: {{$cover}}
+Cover letter: {{$cover}}
 
 CV: {{ $file }}

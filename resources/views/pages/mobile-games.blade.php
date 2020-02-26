@@ -5,7 +5,7 @@
 
 @section('content')
 
-<div class="row">
+<div class="row my-content">
     <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 roboto-light note bq-success mb-4">
 
         <p>Our games are designed exclusively for mobile and tablets.</p>
@@ -23,7 +23,7 @@
 <div class="row mb-5" id = "blackjack">
 <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2 mt-5 box-shadow p-md-3">
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0">
+            <div class="col-sm-6 col-md-6 col-lg-5 offset-sm-3 offset-md-0 black-jack">
                     <img src="{{url('')}}/images/Games/blackjack.png" class = "img-fluid mt-3" alt="">
             </div>
 
@@ -164,22 +164,28 @@
     </div>
 </div>
 
+
+@endsection
+
+@section('footer-script')
 <script>
-function openSlot() {
-  window.open("https://test.esagaming.it/esaslotmachine/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=491,height=860");
-}
+    function openSlot() {
+      window.open("https://test.esagaming.it/esaslotmachine/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=491,height=860");
+    }
+    
+    function openBlackJack() {
+      window.open("https://test.esagaming.it/esablackjack/?token=PLAYFORFUN", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+    }
+    
+    function openRoulette() {
+      window.open("https://test.esagaming.it/esaroulette", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+    }
+    
+    function openEasySwipeBj() {
+      window.open("https://demo.esagaming.it/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
+    }
+    
+    </script>
 
-function openBlackJack() {
-  window.open("https://test.esagaming.it/esablackjack/?token=PLAYFORFUN", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
-}
 
-function openRoulette() {
-  window.open("https://test.esagaming.it/esaroulette", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
-}
-
-function openEasySwipeBj() {
-  window.open("https://demo.esagaming.it/", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=100,left=700,width=456,height=774");
-}
-
-</script>
 @endsection
