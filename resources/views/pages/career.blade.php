@@ -7,11 +7,11 @@
 <div class="row">
     <div class="col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
         <div class="col-md-12">
-            <p>We put a lot of effort into building a company that promotes both profesionalism and joy in every day's work. We want to build a successful comapany by building great things. This means that we will always keep out startup culture alive without <br/> any compromises to the ambitious projects we undertake.</p>
+            <p>We put a lot of effort into building a company that promotes both professionalism and joy in every day's work. We want to build a successful company by building great things. This means that we will always keep our startup culture alive without <br/> any compromises to the ambitious projects we undertake.</p>
         </div>
         <div class="row">
             <div class="col-md-6 float-left my-list work-with-us-list">
-                <h4>At the moment we have these positions opened</h4>
+                <h4>At the moment we have these positions open</h4>
 
                 <ul>
                     <li> <a href="{{ route('job.description') }}" class="text-underline text-dark"><u>Product Owner</u></a> </li>

@@ -7,7 +7,7 @@
 <div class="row mb-5">
     <div class="col-md-8 col-lg-8  offset-md-2 roboto-light box-shadow p-4">
         <div class="col-md-12">
-            <p>We are an independent gaming provider made of industry veterans. We all share the same simple idea, to unique gaming products that will diversify your gaming portfolio and increaseplayer engagement in your sports book or casino. From day one, we had the same strategy - to make high performing products with a mobile-first philosophy.</p>
+            <p>We are an independent gaming provider made of industry veterans. We all share the same simple idea, to create unique gaming products that will diversify your gaming portfolio and increase player engagement in your sportsbook or casino. From day one, we had the same strategy - to make high performing products with a mobile-first philosophy.</p>
             <p>We try to think differently without breaking the things that work. We are Simple. Mobile. Fast</p>
         </div>
 

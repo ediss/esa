@@ -6,7 +6,7 @@
 @section('content')
 <div class="row">
     <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 roboto-light note bq-info mb-4">
-        <p>ESA Poker is a premium network with intuitive UI and features, built from a player perspective and offering a large number of promotional tools suitable for all players types. We enable you to offer what your players want. </p>
+        <p>ESA Poker is a premium network with intuitive UI and features, built from a player perspective and offering a large number of promotional tools suitable for all player types. We enable you to offer what your players want. </p>
     </div>
 
     <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2  p-0">
@@ -61,7 +61,7 @@
 
             <div class="col-lg-6 mt-4">
                     <h4>Fraud department</h4>
-                    <p class = "roboto-light">Our fraud department along with the poker team are constantly working with Operators to optimize fraud prevention practices and get the best results.Our network represents a healthy ecosystem, managed with strong tools against collusion and chip dumping.</p>
+                    <p class = "roboto-light">Our fraud department along with the poker team are constantly working with Operators to optimize fraud prevention practices and get the best results. Our network represents a healthy ecosystem, managed with strong tools against collusion and chip dumping.</p>
                 </div>
 
                 <div class="col-lg-6 mt-4">

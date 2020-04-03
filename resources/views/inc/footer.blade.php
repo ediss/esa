@@ -57,7 +57,7 @@
                     <!-- Content -->
                     <img src="{{url('')}}/images/Logo-EsaGaming.png" class="img-fluid" alt="">
                     <hr class="deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>ESA Gaming is commited to gaming that is fun, safe and secure. High perfoming mobile casino games like slots, blackjack, video poker, roulette...</p>
+                    <p>ESA Gaming is committed to gaming that is fun, safe and secure. High performing mobile casino games like slots, blackjack, video poker, roulette...</p>
 
                 </div>
                 <!-- Grid column -->

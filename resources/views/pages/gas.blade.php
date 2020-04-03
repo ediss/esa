@@ -10,7 +10,7 @@
     <div class="col-lg-8 roboto-light offset-lg-2 note bq-danger mb-5">
         <p>Our single starting integration allows operators to concentrate on their players by adding new games without further integration.
            We offer a wide selection of Casino, Live Dealer and Poker content to operators and we give them the possibility to add a huge variety of games to their own platform,
-           though a simple single integration.
+           through a simple single integration.
         </p>
     </div>
 </div>
@@ -27,8 +27,8 @@
 
             <div class="row mt-4">
                 <div class="col-md-12 col-lg-8 offset-lg-2 roboto-light ">
-                    <p>We have always developed technology with one goal; to make operational management for operators easier.<br/>
-                        The GAS platform gives you the possibility to launch casino and gaming content  from the best providers though simple APIs.
+                    <p>We have always developed technology with one goal - to make operational management for operators easier.<br/>
+                        The GAS platform gives you the possibility to launch casino and gaming content  from the best providers through simple APIs.
                     </p>
 
                     <p>GAS gives access to a wide range of games from all the major Game Studios and the freedom to choose different content that matches your players’ tastes and your needs. The platform includes Multichannel (desktop & mobile) content which is constantly being added to and can be launched with minimal effort from an operator perspective.</p>
