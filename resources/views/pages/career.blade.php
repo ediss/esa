@@ -14,7 +14,8 @@
                 <h4>At the moment we have these positions open</h4>
 
                 <ul>
-                    <li> <a href="{{ route('job.description') }}" class="text-underline text-dark"><u>Product Owner</u></a> </li>
+                    {{-- <li> <a href="{{ route('job.description') }}" class="text-underline text-dark"><u>Product Owner</u></a> </li> --}}
+                    <li> Product Owner</li>
                     <li>2D illustrator </li>
                     <li>2D Animator</li>
                     <li>UI / UX Designer</li>
