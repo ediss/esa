@@ -121,7 +121,7 @@
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <hr class="deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p><i class="fas fa-home mr-1"></i></p>
-                    <p>2 Spinola Road, St. Julians <br> STJ 3014 Malta</p>
+                    <p>2 Spinola Road, St. Julians <br> STJ 3014, Malta</p>
                     <!-- <p><i class="fas fa-envelope mr-3"></i> <br/>info@esagaming.it</p> -->
                     <!-- <p><i class="fas fa-phone mr-3"></i> <br/> + 01 234 567 88</p> -->
 
