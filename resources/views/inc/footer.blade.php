@@ -115,7 +115,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4 mt-3">
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4 mt-3 p-0">
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
