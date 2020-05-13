@@ -140,8 +140,8 @@
             <div class=" col-sm-12 ">
                 <div class="row">
                 <div class="col-8  offset-2">
-                    <div class="col-4 col-sm-6 col-md-2 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
-                        {{-- <img src="{{url('')}}/images/footer.png" class="img-fluid" alt=""> --}}
+                    <div class="col-4 col-sm-6 col-md-4 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
+                      <a target="_blank" href="https://access.gaminglabs.com/Certificate/Index?i=351"><img src="{{url('')}}/images/GLC-footer.png" class="img-fluid" alt=""></a>
                     </div>
                 </div>
                 </div>
