@@ -58,6 +58,13 @@
                     <img src="{{url('')}}/images/Logo-EsaGaming.png" class="img-fluid" alt="">
                     <hr class="deep-green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>ESA Gaming is committed to gaming that is fun, safe and secure. High performing mobile casino games like slots, blackjack, video poker, roulette...</p>
+                    <div class="row">
+                        <div class="col-12 col-md-9">
+                            <a target="_blank" href="https://access.gaminglabs.com/Certificate/Index?i=351"><img src="{{url('')}}/images/GLC-footer.png" class="img-fluid" alt=""></a>
+                        </div>
+                        
+                    </div>
+                    
 
                 </div>
                 <!-- Grid column -->
@@ -141,7 +148,7 @@
                 <div class="row">
                 <div class="col-8  offset-2">
                     <div class="col-4 col-sm-6 col-md-4 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
-                      <a target="_blank" href="https://access.gaminglabs.com/Certificate/Index?i=351"><img src="{{url('')}}/images/GLC-footer.png" class="img-fluid" alt=""></a>
+                      {{-- <a target="_blank" href="https://access.gaminglabs.com/Certificate/Index?i=351"><img src="{{url('')}}/images/GLC-footer.png" class="img-fluid" alt=""></a> --}}
                     </div>
                 </div>
                 </div>
