@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="{{url('')}}/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="{{url('')}}/css/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//code.jivosite.com/widget/yHKT9M0S1P" async></script>
+
 
 </head>
 
