@@ -14,6 +14,8 @@
 
 
     @yield('links')
+    <script src="//code.jivosite.com/widget/yHKT9M0S1P" async></script>
+
 </head>
 
 <body>
