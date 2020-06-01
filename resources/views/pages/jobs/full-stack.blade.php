@@ -19,34 +19,7 @@
 
         <div class="tab-content">
             <div id="about" class="container tab-pane active"><br>
-                <div class="col-md-12 mt-5 text-justify">
-                    <h3 class="font-weight-bold mb-5">About this opportunity</h3>
-                    <p>This is a new and exciting opportunity for a talented Product Owner to join an established
-                        boutique
-                        platform
-                        and software provider in the gaming / betting sector, driven by experienced industry
-                        experts.
-                    </p>
-
-                    <p>
-                        You will assist the business in the continued development of a user management and gaming
-                        platform.
-                        You
-                        will initially manage their industry leading platform which services the gaming industry but
-                        you
-                        will
-                        quickly
-                        get involved in product development across the business.
-                    </p>
-
-                    <p>
-                        You will be working from our Belgrade office and co-ordinating between teams and remote
-                        staff in 3
-                        different countries.
-                    </p>
-
-
-                </div>
+       
 
                 <div class="col-md-12 mt-5 my-list work-with-us-list">
                     <h3 class="font-weight-bold mb-5 ">Responsibilities include:</h3>
