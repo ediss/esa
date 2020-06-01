@@ -144,16 +144,23 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
-            <div class=" col-sm-12 ">
+            <div class=" col-12 ">
                 <div class="row">
-                <div class="col-8  offset-2">
-                    <div class="col-4 col-sm-6 col-md-4 col-lg-2  offset-4 offset-sm-3 offset-md-5 offset-lg-5">
-                      {{-- <a target="_blank" href="https://access.gaminglabs.com/Certificate/Index?i=351"><img src="{{url('')}}/images/GLC-footer.png" class="img-fluid" alt=""></a> --}}
+                <div class="col-12 col-md-8  offset-md-2">
+                    <div class="col-8 col-sm-6 col-md-4 col-lg-2  offset-2 offset-sm-3 offset-md-5 offset-lg-5">
+                      <a target="_blank" href="https://www.authorisation.mga.org.mt/verification.aspx?lang=EN&company=c3d4e5a8-7dd4-4591-9b12-23e6b6d1631e&details=1">
+                        <img src="{{url('')}}/images/footer.png" class="img-fluid" alt="">
+                      </a>
                     </div>
+
+                <p>
+                    EGC Services Ltd, having its registered address at 2, Spinola Road, St. Julians STJ 3014, Malta, is licensed and regulated by the Malta Gaming Authority to supply Type 1 Gaming Services under a B2B Critical Supply Licence (Licence Number MGA XXX, issued on XXX).
+
+                  </p>
                 </div>
                 </div>
                 
-
+                
             </div>
         </div>
         <!-- Copyright -->
