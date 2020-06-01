@@ -624,8 +624,12 @@ html,body
 
 @media only screen and (min-width:800px) {
     #homepage-footer {
+        width: 100%;
         position: absolute;
         bottom: 0;
+    }
+    #homepage-footer p{
+        font-size: 12px;
     }
     #navbarNav li a {
         font-size: 1.5rem;
