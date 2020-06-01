@@ -16,8 +16,8 @@ class CareerController extends Controller
     public function jobDescription(Request $request) {
 
         $validator = null;
-        if ($request->isMethod('post')) { 
-
+        $position  = $request->position;
+        if ($request->isMethod('post')) {
 
             $validator = Validator::make($request->all(), [
                 'name'      =>  'required|',
@@ -30,32 +30,34 @@ class CareerController extends Controller
                 $email  = $request->input('email');
                 $cover  = $request->input('cover');
                 $file   = $request->file('resume');
-                
+
                 $data = [
                     'name'          => $name,
                     'cover'         => $cover,
                     'email'         => $email,
-                    'file'           => $file
+                    'file'          => $file,
+                    'position'      => $position
                 ];
-        
-                Mail::send(['text'=>'pages.mail-job'], $data, function($message) use ($data) {
-                    $message->to('hr@egamingc.com', 'ESAGaming.it')->subject ($data['name'])->replyTo($data['email']);
+
+                Mail::send(['html'=>'pages.mail-job'], $data, function($message) use ($data) {
+                    $message->to('hr@egamingc.com', 'ESAGaming.it')->subject ($data['position'])->replyTo($data['email']);
                     $message->from($data['email'], $data['name'] );
-                    
+
                     $message->attach($data['file']->getRealPath(), array(
-                            'as' => $data['file']->getClientOriginalName(), // If you want you can chnage original name to custom name      
+                            'as' => $data['file']->getClientOriginalName(), // If you want you can chnage original name to custom name
                             'mime' => $data['file']->getMimeType())
                     );
                 });
-        
+
                 Session::flash('success', "$name,  Your job application has been submitted successfully! ");
                 return redirect()->back();
             }
 
 
-            
+
 
         }
-        return view('pages.job-description', ['validator' => $validator]);
+
+        return view('pages.job-description', ['validator' => $validator, 'position' => $position]);
     }
 }

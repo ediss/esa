@@ -6,18 +6,30 @@
 @section('content')
 <div class="row">
     <div class="col-12 text-center">
-            @if (Session::has('success'))
-            <div class="alert alert-success" role="alert">
-                {{Session::get('success')}}
-            </div>
-            @endif
+        @if (Session::has('success'))
+        <div class="alert alert-success" role="alert">
+            {{Session::get('success')}}
+        </div>
+        @endif
     </div>
-        
+
+    @if(isset($position) && $position == "Full-Stack-Developer")
+        @include("pages.jobs.full-stack")
+    @endif
+    
+
+    @if(isset($position) && $position == "JavaScript-Developer")
+        @include("pages.jobs.js-developer")
+    @endif
+
+    {{-- @if($position = "Product-Owner")
+    @include("pages.jobs.product-owner")
     <div class="col-12 col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
         <div class="col-12 p-0">
             <h1 class="text-center font-weight-bold mb-5">Platform Product Owner</h1>
-            <p class="text-center">Have you got previous Product experience in an online industry? If so this could be the next step for you
-                in your career! <br/> Perhaps you are an experienced Project Manager looking to take the next step up?
+            <p class="text-center">Have you got previous Product experience in an online industry? If so this could be
+                the next step for you
+                in your career! <br /> Perhaps you are an experienced Project Manager looking to take the next step up?
             </p>
 
             <nav class="nav nav-pills nav-justified mt-5">
@@ -138,6 +150,8 @@
 
 
     </div>
+    @endif --}}
+
 </div>
 
 <!-- Modal -->
@@ -145,13 +159,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Product Owner</h5>
+                <h5 class="modal-title" id="exampleModalLabel">{{ $position }}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form action="{{ route ('job.description') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route ('job.description', ['position' => $position]) }}" method="POST" enctype="multipart/form-data">
                     @csrf
 
                     <div class="form-group">
@@ -160,48 +174,49 @@
                         @if ( $validator && $validator->errors()->first('name') )
                         <div class="alert alert-danger mt-2">
                             {{ $validator->errors()->first('name') }}
+                        </div>
+                        @endif
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="email" name="email" placeholder="example@gmail.com *" class="form-control"
+                            value="{{ Request::get('email') }}">
+                        @if ( $validator && $validator->errors()->first('email') )
+                        <div class="alert alert-danger mt-2">
+                            {{ $validator->errors()->first('email') }}
+                        </div>
+                        @endif
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="">Cover Letter</label>
+                        <textarea class="form-control" name="cover" placeholder="Cover Letter"> </textarea>
+                        @if ( $validator && $validator->errors()->first('cover') )
+                        <div class="alert alert-danger mt-2">
+                            {{ $validator->errors()->first('cover') }}
+                        </div>
+                        @endif
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Resume *</label> <br />
+                        <input type="file" name="resume"></div>
+
+                    @if ( $validator && $validator->errors()->first('resume') )
+                    <div class="alert alert-danger mt-2">
+                        {{ $validator->errors()->first('resume') }}
                     </div>
                     @endif
             </div>
+            <div class=" text-center border-top justify-content-center">
 
-            <div class="form-group">
-
-                <input type="email" name="email" placeholder="example@gmail.com *" class="form-control"
-                    value="{{ Request::get('email') }}">
-                @if ( $validator && $validator->errors()->first('email') )
-                <div class="alert alert-danger mt-2">
-                    {{ $validator->errors()->first('email') }}
+                <button type="submit" class="btn btn-lg job-button">Apply</button>
             </div>
-            @endif
+            </form>
+
         </div>
-
-        <div class="form-group">
-
-            <textarea class="form-control" name="cover" placeholder="Covver Letter"> </textarea>
-            @if ( $validator && $validator->errors()->first('cover') )
-                    <div class="alert alert-danger mt-2">
-                        {{ $validator->errors()->first('cover') }}
-        </div>
-        @endif
     </div>
-
-    <div class="form-group">
-        <label for="">Resume *</label> <br/>
-        <input type="file" name="resume"></div>
-        
-        @if ( $validator && $validator->errors()->first('resume') )
-                <div class="alert alert-danger mt-2">
-                    {{ $validator->errors()->first('resume') }}
-    </div>
-    @endif
-</div>
-<div class=" text-center border-top justify-content-center">
-
-    <button type="submit" class="btn btn-lg job-button">Apply</button>
-</div>
-</form>
-
-</div>
-</div>
 </div>
 @endsection

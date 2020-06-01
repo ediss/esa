@@ -6,8 +6,13 @@
 @section('content')
 <div class="row">
     <div class="col-md-8 offset-md-2 roboto-light p-4 mb-4 box-shadow">
-        <div class="col-md-12">
+        <div class="col-md-12 text-justify">
             <p>We put a lot of effort into building a company that promotes both professionalism and joy in every day's work. We want to build a successful company by building great things. This means that we will always keep our startup culture alive without <br/> any compromises to the ambitious projects we undertake.</p>
+        </div>
+        <div class="col-md-12">
+            {{-- <p>
+                If you are a team player with strong initiative and self-motivation thriving in a small team environment where the route from idea to implementation is very short we can offer an excellent package and a challenging and rewarding job in one of the fastest growing and most exciting industries there is.
+            </p> --}}
         </div>
         <div class="row">
             <div class="col-md-6 float-left my-list work-with-us-list">
@@ -15,6 +20,8 @@
 
                 <ul>
                     {{-- <li> <a href="{{ route('job.description') }}" class="text-underline text-dark"><u>Product Owner</u></a> </li> --}}
+                    <li> <a href="{{ route('job.description', ['position' => 'Full-Stack-Developer']) }}" class="text-underline text-dark"><u>Full-Stack Developer</u></a> </li>
+                    <li> <a href="{{ route('job.description', ['position' => 'JavaScript-Developer']) }}" class="text-underline text-dark"><u>Java-Script Developer</u></a> </li>
                     <li> Product Owner</li>
                     <li>2D illustrator </li>
                     <li>2D Animator</li>
