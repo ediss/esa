@@ -623,6 +623,10 @@ html,body
 }
 
 @media only screen and (min-width:800px) {
+    #homepage-footer {
+        position: absolute;
+        bottom: 0;
+    }
     #navbarNav li a {
         font-size: 1.5rem;
     }
