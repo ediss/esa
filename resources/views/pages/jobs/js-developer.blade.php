@@ -13,7 +13,7 @@
         
 
         <nav class="nav nav-pills nav-justified mt-5">
-            <a class="nav-item nav-link active" data-toggle="pill" href="#about">About & Responsibilities</a>
+            <a class="nav-item nav-link active" data-toggle="pill" href="#about">Responsibilities</a>
             <a class="nav-item nav-link" data-toggle="pill" href="#requirements">Requirements</a>
             <a class="nav-item nav-link" data-toggle="pill" href="#qualifications">Counted as a plus</a>
         </nav>
