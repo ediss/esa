@@ -8,8 +8,10 @@
 
     <div class="row mt-4">
         <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2 roboto-light box-shadow p-5 contact-text">
-            <p>Are you interested to find out how we can enhance your offering? Don't be a stranger - we'd like to hear from
-                you and see what we can do to keep your players engaged and happy!</p>
+            <div class="text-center">
+                <h1> <b>Request a Demo</b></h1>
+            </div>
+            <p>Start cross-selling effectively now! Are you interested to find out how we can enhance your offering and keep your players engaged and happy? Then fill out the form and we will be in touch to set up a demo of our mobile games.</p>
             @if (Session::has('success'))
             <div class="alert alert-success" role="alert">
                 {{Session::get('success')}}
