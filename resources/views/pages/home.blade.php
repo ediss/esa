@@ -15,7 +15,7 @@
 
 <body class = "home-background">
     <div class="container-fluid">
-        <div class="row mb-5">
+        <div class="row mb-2">
             <div class="col-md-12 col-lg-12">
                 <div class="row mt-3">
                     <div class="col-sm-d-none col-md-0 col-lg-2"></div>
