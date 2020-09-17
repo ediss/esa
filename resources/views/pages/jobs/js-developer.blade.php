@@ -31,17 +31,17 @@
                     <h3 class="font-weight-bold mb-5 "></h3>
                     <ul>
                         <li>Do you feel your everyday Javascript developer life is ready for a new, fun twist?</li>
-                        <li>Do you find it inspirational to make HTML based games for the online gaming platform thatmanages over 2000 games and almost 2 million players on 4 continents?</li>
+                        <li>Do you find it inspirational to make HTML based games for the online gaming platform that manages over 2000 games and almost 2 million players on 4 continents?</li>
                     </ul>
 
-                    <p class="p-3">You may or may not have experience with HTML Canvas, but if you are willing to do a technical task andshow that you are up for the job, we would love to meet you! Every applicant will have an opportunity tobuild a very basic Canvas based game in 2 days before any interview</p>
+                    <p class="p-3">You may or may not have experience with HTML Canvas, but if you are willing to do a technical task and show that you are up for the job, we would love to meet you! Every applicant will have an opportunity to build a very basic Canvas based game in 2 days before any interview</p>
 
                     <h1>You will:</h1>
                     <ul>
                         <li>learn how game certifications work</li>
                         <li>be part of the integrations with the biggest online game providers</li>
                         <li>learn the logistics of producing a game for the online gambling markets</li>
-                        <li>be part of a small but sustainable team that doesn't need investments and grows rapidly and completelyorganic</li>
+                        <li>be part of a small but sustainable team that doesn't need investments and grows rapidly and completely organic</li>
                         <li>have mentors that are over 20 years in the gambling world and more than 10 years in online gambling</li>
                         <li>be here during our expansion to new market</li>
                     </ul>
