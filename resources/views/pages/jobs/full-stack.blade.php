@@ -9,6 +9,9 @@
                  office and co-ordinating between teams and remote staff in 3 different countries. The offered position is a full-time and permanent job.
         </p> --}}
 
+        <p>
+            We don't depend on global economics and our growth has been constant and steep. If you would like to be part of our team, here's what we're looking for!
+        </p>
         <nav class="nav nav-pills nav-justified mt-5">
             <a class="nav-item nav-link active" data-toggle="pill" href="#overview">Overview</a>
             <a class="nav-item nav-link " data-toggle="pill" href="#about">Responsibilities</a>
