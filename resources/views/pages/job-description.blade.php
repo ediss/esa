@@ -13,7 +13,7 @@
         @endif
     </div>
 
-    @if(isset($position) && $position == "Full-Stack-Developer")
+    @if(isset($position) && $position == "PHP-Developer")
         @include("pages.jobs.full-stack")
     @endif
     
