@@ -20,8 +20,8 @@
 
                 <ul>
                     {{-- <li> <a href="{{ route('job.description') }}" class="text-underline text-dark"><u>Product Owner</u></a> </li> --}}
-                    <li> <a href="{{ route('job.description', ['position' => 'Full-Stack-Developer']) }}" class="text-underline text-dark"><u>Full-Stack Developer</u></a> </li>
-                    <li> <a href="{{ route('job.description', ['position' => 'JavaScript-Developer']) }}" class="text-underline text-dark"><u>Java-Script Developer</u></a> </li>
+                    <li> <a href="{{ route('job.description', ['position' => 'Full-Stack-Developer']) }}" class="text-underline text-dark"><u>PHP Developer</u></a> </li>
+                    <li> <a href="{{ route('job.description', ['position' => 'JavaScript-Developer']) }}" class="text-underline text-dark"><u>JavaScript Game Developer</u></a> </li>
                     <li> Product Owner</li>
                     <li>2D illustrator </li>
                     <li>2D Animator</li>
