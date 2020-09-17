@@ -63,7 +63,7 @@
                         <li>Code review</li>
                         <li>Creating documentation and keeping it up to date</li>
                         <li>Performing developer testing and releasing the product</li>
-                        <li>If interested, there is an option of involvement in planning, building architecture and developingfrontend part for new JavaScript canvas based mobile casino games (poker, blackjack, roulette,slot...)</li>
+                        <li>If interested, there is an option of involvement in planning, building architecture and developing frontend part for new JavaScript canvas based mobile casino games (poker, blackjack, roulette,slot...)</li>
                     </ul>
                 </div>
             </div>
