@@ -25,17 +25,17 @@
                     <h3 class="font-weight-bold mb-5 "></h3>
                     <ul>
                         <li>Are you a PHP developer ready for the next step?</li>
-                        <li>Do you find it inspirational to make a back-office for an online gaming platform that manages over2000 games and almost 2 million players on 4 continents?</li>
+                        <li>Do you find it inspirational to make a back-office for an online gaming platform that manages over 2000 games and almost 2 million players on 4 continents?</li>
                     </ul>
 
-                    <p class="p-3">You may not come from the gambling world, but if you can help us with handling big amounts of data,merging several applications into one, rewriting an old app into a new fancy one, then we would love tomeet you! Every applicant will have an opportunity to do a short technical task and show his skills,regardless of his/her job history</p>
+                    <p class="p-3">You may not come from the gambling world, but if you can help us with handling big amounts of data, merging several applications into one, rewriting an old app into a new fancy one, then we would love to meet you! Every applicant will have an opportunity to do a short technical task and show his skills, regardless of his/her job history</p>
 
                     <h1>You will:</h1>
                     <ul>
-                        <li>work on the online gaming platform that manages over 2000 games and almost 2 million players on 4continents</li>
+                        <li>work on the online gaming platform that manages over 2000 games and almost 2 million players on 4 continents</li>
                         <li>be part of the integrations with the biggest online game providers</li>
                         <li>learn the logistics of producing a game for the online gambling markets</li>
-                        <li>be part of a small but sustainable team that doesn't need investments and grows rapidly and completelyorganic</li>
+                        <li>be part of a small but sustainable team that doesn't need investments and grows rapidly and completely organic</li>
                         <li>have mentors that are over 20 years in the gambling world and more than 10 years in online gambling</li>
                         <li>be here during our expansion to new market</li>
                     </ul>
