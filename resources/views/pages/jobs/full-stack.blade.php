@@ -62,9 +62,9 @@
             </div>
 
             <div id="requirements" class="container tab-pane fade"><br>
-                <div class="col-md-12 mt-3 my-list work-with-us-list mt-5 text-center text-md-left">
+                <div class="col-md-12 mt-3 my-list work-with-us-list mt-5">
                     <h3 class="font-weight-bold mb-5">Requirements:</h3>
-                    <ul class="p-0">
+                    <ul>
                         <li>Excellent knowledge of PHP / MySQL / JavaScript / HTML</li>
                         <li>You have worked in professional software development environment</li>
                         <li>Habit of commenting your code when it makes sense and keeping your debug-outputs tidy</li>
