@@ -17,6 +17,7 @@
             <a class="nav-item nav-link " data-toggle="pill" href="#about">Responsibilities</a>
             <a class="nav-item nav-link" data-toggle="pill" href="#requirements">Requirements</a>
             <a class="nav-item nav-link" data-toggle="pill" href="#qualifications">Counted as a plus</a>
+            <a class="nav-item nav-link" data-toggle="pill" href="#we-offer">We Offer</a>
         </nav>
 
         <div class="tab-content">
@@ -92,6 +93,19 @@
 
 
 
+                </div>
+            </div>
+
+            <div id="we-offer" class="container tab-pane fade"><br>
+                <div class="col-md-12 mt-5 my-list work-with-us-list">
+                    <h3 class="font-weight-bold mb-5 ">We Offer:</h3>
+                    <ul>
+                        <li>Possibility to work remotely</li>
+                        <li>Flexible hours</li>
+                        <li>Small team with a lot of freedom to tailor your work and assignments</li>
+                        <li>Work with gambling industry veterans</li>
+                        <li>Entry point for gaming industry if you’re an enthusiast</li>
+                    </ul>
                 </div>
             </div>
         </div>
