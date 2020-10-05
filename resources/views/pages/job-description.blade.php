@@ -16,10 +16,14 @@
     @if(isset($position) && $position == "PHP-Developer")
         @include("pages.jobs.full-stack")
     @endif
-    
+
 
     @if(isset($position) && $position == "JavaScript-Developer")
         @include("pages.jobs.js-developer")
+    @endif
+
+    @if(isset($position) && $position == "Project-Manager")
+        @include("pages.jobs.project-manager")
     @endif
 
     {{-- @if($position = "Product-Owner")
@@ -230,9 +234,9 @@
 <script>
     grecaptcha.ready(function() {
         var name = "{{ env('RECAPTCHA_V3_SITE_KEY') }}";
-        
+
         grecaptcha.execute(name, {action: '/ContactUs'}).then(function(token) {
-           
+
            if(token) {
                document.getElementById('recaptcha').value = token;
            }

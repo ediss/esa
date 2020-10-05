@@ -17,6 +17,7 @@ class CareerController extends Controller
 
         $validator = null;
         $position  = $request->position;
+        dd($position);
         if ($request->isMethod('post')) {
 
             $validator = Validator::make($request->all(), [
@@ -30,6 +31,32 @@ class CareerController extends Controller
                 $email  = $request->input('email');
                 $cover  = $request->input('cover');
                 $file   = $request->file('resume');
+
+                     //check if user is bot
+                $url = 'https://www.google.com/recaptcha/api/siteverify';
+                $captchaData = [
+                    'secret' => env('RECAPTCHA_V3_SECRET_KEY'),
+                    'response' => $request->input('recaptcha')
+                ];
+
+
+
+                $options = [
+                    'http' => [
+                        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+                        'method'  => "POST",
+                        'content' => http_build_query($captchaData)
+                    ]
+                ];
+
+                $context    = stream_context_create($options);
+                $result     = file_get_contents($url, false, $context);
+                $resultJson = json_decode($result);
+
+
+                if($resultJson->success != true) {
+                    return back()->with('message', 'Bot!');
+                }
 
                 $data = [
                     'name'          => $name,
