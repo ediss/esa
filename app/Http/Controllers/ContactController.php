@@ -15,7 +15,7 @@ class ContactController extends Controller {
     public function index(Request $request) {
         $validator = null;
         if ($request->isMethod('post')) {
-            
+
             $name           = $request->input('name');
             $company_name   = $request->input('company_name');
             $email          = $request->input('email');
@@ -29,7 +29,7 @@ class ContactController extends Controller {
             ]);
 
             if ($validator->passes()){
-                
+
                 //check if user is bot
                 $url = 'https://www.google.com/recaptcha/api/siteverify';
                 $captchaData = [
@@ -37,7 +37,7 @@ class ContactController extends Controller {
                     'response' => $request->input('recaptcha')
                 ];
 
-                
+
 
                 $options = [
                     'http' => [
@@ -64,16 +64,16 @@ class ContactController extends Controller {
                     'subject'       => $subject,
                     'msg'           => $msg
                 ];
-        
+
                 Mail::send(['text'=>'pages.mail'], $data, function($message) use ($data) {
                     $message->to('info@esagaming.it', 'ESAGaming.it')->subject ($data['subject'])->replyTo($data['email']);
                     $message->from($data['email'], $data['name'] );
                 });
-        
+
                 Session::flash('success', "$name,  your message was successfully sent!");
                 return redirect()->back();
             }
-    
+
         }
         return view('pages.contact', ['validator' => $validator]);
     }

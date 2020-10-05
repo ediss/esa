@@ -202,13 +202,17 @@
 
                     <div class="form-group">
                         <label for="">Resume *</label> <br />
-                        <input type="file" name="resume"></div>
+                        <input type="file" name="resume">
+                    </div>
 
                     @if ( $validator && $validator->errors()->first('resume') )
                     <div class="alert alert-danger mt-2">
                         {{ $validator->errors()->first('resume') }}
                     </div>
                     @endif
+
+                    <input type="hidden" name="recaptcha" id="recaptcha">
+
             </div>
             <div class=" text-center border-top justify-content-center">
 
@@ -219,4 +223,20 @@
         </div>
     </div>
 </div>
+@endsection
+
+
+@section('footer-script')
+<script>
+    grecaptcha.ready(function() {
+        var name = "{{ env('RECAPTCHA_V3_SITE_KEY') }}";
+        
+        grecaptcha.execute(name, {action: '/ContactUs'}).then(function(token) {
+           
+           if(token) {
+               document.getElementById('recaptcha').value = token;
+           }
+        });
+    });
+</script>
 @endsection

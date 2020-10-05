@@ -53,9 +53,6 @@ class CareerController extends Controller
                 return redirect()->back();
             }
 
-
-
-
         }
 
         return view('pages.job-description', ['validator' => $validator, 'position' => $position]);
