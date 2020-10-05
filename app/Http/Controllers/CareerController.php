@@ -17,7 +17,7 @@ class CareerController extends Controller
 
         $validator = null;
         $position  = $request->position;
-        dd($position);
+        
         if ($request->isMethod('post')) {
 
             $validator = Validator::make($request->all(), [
